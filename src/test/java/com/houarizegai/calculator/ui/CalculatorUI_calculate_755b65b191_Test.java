@@ -48,7 +48,7 @@ import com.houarizegai.calculator.ui.CalculatorUI;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class CalculatorUITest {
+public class CalculatorUI_calculate_755b65b191_Test {
     CalculatorUI calculator = new CalculatorUI();
 
     @Test

@@ -46,6 +46,7 @@ import com.houarizegai.calculator.theme.ThemeLoader;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
+import java.awt.Color;
 
 @ExtendWith(MockitoExtension.class)
 public class CalculatorUI_CalculatorUI_772bd0bc5d_Test {
@@ -68,7 +69,7 @@ public class CalculatorUI_CalculatorUI_772bd0bc5d_Test {
         verify(calculatorUI.getWindow()).setLocationRelativeTo(null);
         verify(calculatorUI.getWindow()).setResizable(false);
         verify(calculatorUI.getWindow()).setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        verify(calculatorUI.getWindow()).setVisible(true);
+        verify(calculatorUIs.getWindow()).setVisible(true);
     }
 
     @Test
