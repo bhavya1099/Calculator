@@ -51,7 +51,7 @@ Test the power operation with negative exponent.
 // ********RoostGPT********
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-import com.houarizegai.calculator.CalculatorUI;
+import com.houarizegai.calculator.ui.CalculatorUI;
 
 public class CalculatorUI_calculate_755b65b191_Test {
 
