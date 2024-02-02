@@ -32,7 +32,9 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import javax.swing.*;
+import java.util.Map;
 import java.awt.*;
+import com.houarizegai.calculator.theme.properties.Theme;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorUI_CalculatorUI_772bd0bc5d_Test {
