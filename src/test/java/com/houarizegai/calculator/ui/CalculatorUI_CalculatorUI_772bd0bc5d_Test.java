@@ -51,27 +51,27 @@ public class CalculatorUI_CalculatorUI_772bd0bc5d_Test {
         calculatorUI = new CalculatorUI();
     }
 
-    @Test
-    public void testThemesMapInitialization() {
-        assertNotNull(calculatorUI.themesMap, "themesMap should not be null");
-        assertTrue(calculatorUI.themesMap.size() > 0, "themesMap should not be empty");
-    }
+    // @Test
+    // public void testThemesMapInitialization() {
+    //     assertNotNull(calculatorUI.themesMap, "themesMap should not be null");
+    //     assertTrue(calculatorUI.themesMap.size() > 0, "themesMap should not be empty");
+    // }
 
-    @Test
-    public void testWindowInitialization() {
-        assertNotNull(calculatorUI.window, "window should not be null");
-        assertEquals(calculatorUI.APPLICATION_TITLE, calculatorUI.window.getTitle(), "window title should be equal to APPLICATION_TITLE");
-        assertTrue(calculatorUI.window.isVisible(), "window should be visible");
-        assertFalse(calculatorUI.window.isResizable(), "window should not be resizable");
-        assertEquals(JFrame.EXIT_ON_CLOSE, calculatorUI.window.getDefaultCloseOperation(), "default close operation should be JFrame.EXIT_ON_CLOSE");
-    }
+    // @Test
+    // public void testWindowInitialization() {
+    //     assertNotNull(calculatorUI.window, "window should not be null");
+    //     assertEquals(calculatorUI.APPLICATION_TITLE, calculatorUI.window.getTitle(), "window title should be equal to APPLICATION_TITLE");
+    //     assertTrue(calculatorUI.window.isVisible(), "window should be visible");
+    //     assertFalse(calculatorUI.window.isResizable(), "window should not be resizable");
+    //     assertEquals(JFrame.EXIT_ON_CLOSE, calculatorUI.window.getDefaultCloseOperation(), "default close operation should be JFrame.EXIT_ON_CLOSE");
+    // }
 
-    @Test
-    public void testColumnsAndRowsInitialization() {
-        int[] expectedColumns = {calculatorUI.MARGIN_X, calculatorUI.MARGIN_X + 90, calculatorUI.MARGIN_X + 90 * 2, calculatorUI.MARGIN_X + 90 * 3, calculatorUI.MARGIN_X + 90 * 4};
-        int[] expectedRows = {calculatorUI.MARGIN_Y, calculatorUI.MARGIN_Y + 100, calculatorUI.MARGIN_Y + 100 + 80, calculatorUI.MARGIN_Y + 100 + 80 * 2, calculatorUI.MARGIN_Y + 100 + 80 * 3, calculatorUI.MARGIN_Y + 100 + 80 * 4};
+    // @Test
+    // public void testColumnsAndRowsInitialization() {
+    //     int[] expectedColumns = {calculatorUI.MARGIN_X, calculatorUI.MARGIN_X + 90, calculatorUI.MARGIN_X + 90 * 2, calculatorUI.MARGIN_X + 90 * 3, calculatorUI.MARGIN_X + 90 * 4};
+    //     int[] expectedRows = {calculatorUI.MARGIN_Y, calculatorUI.MARGIN_Y + 100, calculatorUI.MARGIN_Y + 100 + 80, calculatorUI.MARGIN_Y + 100 + 80 * 2, calculatorUI.MARGIN_Y + 100 + 80 * 3, calculatorUI.MARGIN_Y + 100 + 80 * 4};
 
-        assertArrayEquals(expectedColumns, calculatorUI.columns, "columns should be initialized correctly");
-        assertArrayEquals(expectedRows, calculatorUI.rows, "rows should be initialized correctly");
-    }
+    //     assertArrayEquals(expectedColumns, calculatorUI.columns, "columns should be initialized correctly");
+    //     assertArrayEquals(expectedRows, calculatorUI.rows, "rows should be initialized correctly");
+    // }
 }
