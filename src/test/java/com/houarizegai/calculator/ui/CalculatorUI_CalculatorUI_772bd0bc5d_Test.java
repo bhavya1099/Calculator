@@ -11,7 +11,7 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class CalculatorUI_CalculatorUI_772bd0bc5d_Test {
+public class CalculatorUITest {
 
     private CalculatorUI calculatorUI;
     private Map<String, Theme> themesMap;
@@ -52,17 +52,8 @@ public class CalculatorUI_CalculatorUI_772bd0bc5d_Test {
 
     @Test
     public void testThemesLoading() {
-        assertNotNull(calculatorUI.themesMap);
-        assertEquals(themesMap, calculatorUI.themesMap);
+        assertNotNull(themesMap);
+        assertEquals(themesMap, calculatorUI.getThemesMap());
     }
 
-    @Test
-    public void testColumnsAndRowsSetup() {
-        int[] expectedColumns = {20, 110, 200, 290, 380};
-        int[] expectedRows = {60, 160, 240, 320, 400, 480};
-
-        // Assuming getColumns() and getRows() methods are available in the CalculatorUI class
-        // assertArrayEquals(expectedColumns, calculatorUI.getColumns());
-        // assertArrayEquals(expectedRows, calculatorUI.getRows());
-    }
 }
