@@ -1,0 +1,11 @@
+id,reference,startDate,endDate,credentialUrl,statusCode
+3e97b131-a956-481e-a2e6-384b4cfa889b,Ref001,2020-01-01,2020-12-31,http://example.com,201
+a1c3d5g7-j6k8-l9m1-n2o3-p4q5r6t7,Ref002,2019-05-20,2020-05-19,https://test.com,400
+f5e4d3c2-b1a9-8765-4321-0fedcba98765,Ref003,2021-02-01,2022-02-01,ftp://site.com,401
+9h8g7f6e-5d4c-3b2a-1z0x-9w8v7u6t5s,Ref004,2020-06-01,2021-06-01,http://example.net,201
+0r2q3p4o-5n6m7l-8k9j8h-7g6f5d4s3a,Ref005,2018-10-01,2019-10-01,https://test.net,400
+2b3a4c5d-6e7f8g-9h0i1j-2k3l4m5n6o,Ref006,2017-04-01,2018-04-01,ftp://site.net,401
+4d5e6f7g-8h9i0j-1k2l3m-4n5o6p7q8r,Ref007,2022-03-01,2023-03-01,http://example.org,201
+6f7g8h9i-0j1k2l-3m4n5o-6p7q8r9s0t,Ref008,2019-07-01,2020-07-01,https://test.org,400
+8h9i0j1k-2l3m4n-5o6p7q-8r9s0t1u2v,Ref009,2018-08-01,2019-08-01,ftp://site.org,401
+0j1k2l3m-4n5o6p-7q8r9s-0t1u2v3w4x,Ref010,2021-09-01,2022-09-01,http://example.io,201

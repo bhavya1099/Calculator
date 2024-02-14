@@ -1,0 +1,11 @@
+id,initials,firstName,middleName,lastName,birthDate,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode
+1a2b3c4d,JM,John,Michael,Doe,1980-02-20,New York,1234567890,john.doe@example.com,10001,123,A,US,Ref1,200
+2b3c4d5e,AS,Alice,Smith,Johnson,1990-10-12,Boston,2345678901,alice.johnson@example.com,02108,456,B,US,Ref2,200
+3c4d5e6f,PR,Peter,Richard,Williams,1975-07-22,Chicago,345678902,peter.williams@example.com,60606,789,C,US,Ref3,200
+4d5e6f7g,ML,Mary,Louise,Brown,1985-05-30,Los Angeles,456789023,mary.brown@example.com,90001,102,D,US,Ref4,200
+5e6f7g8h,TD,Tom,David,Taylor,1970-12-01,San Francisco,567890234,tom.taylor@example.com,94101,345,E,US,Ref5,200
+6f7g8h9i,JS,Jane,Susan,Miller,1995-03-15,Seattle,678902345,jane.miller@example.com,98101,678,F,US,Ref6,200
+7g8h9i0j,RL,Robert,Lee,Davis,1987-11-05,Houston,789023456,robert.davis@example.com,77001,901,G,US,Ref7,200
+8h9i0j1k,KG,Karen,Grace,Garcia,1992-08-20,Phoenix,890234567,karen.garcia@example.com,85001,234,H,US,Ref8,200
+9i0j1k2l,WM,William,Matthew,Rodriguez,1983-04-25,Philadelphia,902345678,william.rodriguez@example.com,19106,567,I,US,Ref9,200
+0j1k2l3m,CH,Charles,Henry,Wilson,1998-01-10,San Diego,123456789,charles.wilson@example.com,92101,890,J,US,Ref10,200

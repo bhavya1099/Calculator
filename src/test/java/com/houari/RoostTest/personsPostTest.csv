@@ -1,0 +1,11 @@
+initials,firstName,middleName,lastName,birthDate,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode
+JH,John,Henry,Doe,1980-05-15,New York,1234567890,johndoe@email.com,10001,15,A,US,REF1234,201
+MJ,Mary,Jane,Smith,1990-10-20,Los Angeles,0987654321,marysmith@email.com,90001,20,B,US,REF5678,201
+AB,Alex,Brian,Johnson,1995-08-25,Chicago,1122334455,alexjohnson@email.com,60616,25,C,US,REF9012,201
+CD,Chris,David,Williams,2000-12-30,Houston,2233445566,chriswilliams@email.com,77002,30,D,US,REF3456,201
+EF,Emma,Frank,Jackson,1985-07-10,Philadelphia,3344556677,emmajackson@email.com,19106,10,E,US,REF7890,201
+GH,Grace,Helen,Thompson,1975-06-15,Phoenix,4455667788,gracethompson@email.com,85001,15,F,US,REF1230,201
+IJ,Ian,James,Anderson,1965-05-20,San Antonio,5566778899,iananderson@email.com,78205,20,G,US,REF4567,201
+KL,Kate,Lucy,Thomas,1970-04-25,San Diego,6677889900,katethomas@email.com,92101,25,H,US,REF8901,201
+MN,Mark,Neil,Moore,1985-03-30,Dallas,7788990011,markmoore@email.com,75201,30,I,US,REF2345,201
+OP,Olivia,Patricia,Taylor,1995-02-20,San Jose,8899001122,oliviataylor@email.com,95113,20,J,US,REF6789,201

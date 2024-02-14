@@ -1,0 +1,11 @@
+id,tradeName,phone,email,statusCode
+3e25d6c2-7f02-4d47-99f2-27b5d4ec4561,TradeA,1234567890,tradeA@example.com,200
+4f35b7c3-8f12-5d58-99g3-38c6d5fe5672,TradeB,1234567891,tradeB@example.com,200
+5g45c8d4-9g23-6e69-99h4-49d7e6gf6783,TradeC,1234567892,tradeC@example.com,401
+6h56d9e5-a34-7f7a-99i5-5ae8f7gh7894,TradeD,1234567893,tradeD@example.com,400
+7i67eaf6-b45-8g8b-99j6-6bf9g8hi8905,TradeE,1234567894,tradeE@example.com,200
+8j78fbg7-c56-9h9c-99k7-7cg0h9ij9016,TradeF,1234567895,tradeF@example.com,401
+9k89gch8-d67-aia-d99l-8dh1i0jk0127,TradeG,1234567896,tradeG@example.com,400
+al90hdj9-e78-bjb-e99m-9ei2j1kl1238,TradeH,1234567897,tradeH@example.com,200
+bm01iek0-f89-ckc-f99n-afj3k2lm2349,TradeI,1234567898,tradeI@example.com,401
+cn12jfl1-g9a-dld-g99o-bgk4l3mn3450,TradeJ,1234567899,tradeJ@example.com,400

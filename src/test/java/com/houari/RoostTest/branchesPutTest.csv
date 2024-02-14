@@ -1,0 +1,11 @@
+cocNumber,cocBranchNumber,city,tradeName,phone,email,statusCode
+12345678,123456789012,Amsterdam,Trade A,0612345678,tradeA@example.com,200
+87654321,210987654321,Rotterdam,Trade B,0687654321,tradeB@example.com,201
+23456789,123456789123,Utrecht,Trade C,0623456789,tradeC@example.com,200
+98765432,321098765432,The Hague,Trade D,0698765432,tradeD@example.com,201
+34567890,123456789234,Eindhoven,Trade E,0634567890,tradeE@example.com,200
+76543219,912345678901,Groningen,Trade F,0676543219,tradeF@example.com,201
+45678901,123456789345,Tilburg,Trade G,0645678901,tradeG@example.com,200
+65432198,891234567890,Maastricht,Trade H,0665432198,tradeH@example.com,201
+56789012,123456789456,Leiden,Trade I,0656789012,tradeI@example.com,200
+54321987,789123456789,Haarlem,Trade J,0654321987,tradeJ@example.com,201
