@@ -1,0 +1,11 @@
+size,offset,name,birth-date,statusCode
+12,0,John Doe,1990-05-12,200
+7,1,Jane Smith,1982-11-30,401
+22,2,Amelia Earhart,1975-07-24,400
+35,3,Mark Twain,1993-03-02,200
+5,4,Steve Jobs,1955-02-24,200
+43,5,Ada Lovelace,1815-12-10,401
+16,6,Grace Hopper,1906-12-09,400
+9,7,Alan Turing,1912-06-23,200
+30,8,Marie Curie,1867-11-07,401
+48,9,Nikola Tesla,1856-07-10,200

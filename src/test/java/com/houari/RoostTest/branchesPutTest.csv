@@ -1,0 +1,11 @@
+cocNumber,cocBranchNumber,city,tradeName,phone,email,statusCode
+12345678,123456789012,New York,AlphaTrade,2125550198,alpha@trade.com,200
+87654321,210987654321,Los Angeles,BetaGoods,3105550132,beta@goods.com,201
+23456789,345678901234,Chicago,GammaServices,7735550167,gamma@services.com,200
+98765432,432109876543,Houston,DeltaCorp,7135550199,delta@corp.com,201
+34567890,567890123456,Phoenix,EpsilonLtd,6025550110,epsilon@ltd.com,200
+65432198,678901234567,Philadelphia,ZetaInc,2155550144,zeta@inc.com,201
+56789012,789012345678,San Antonio,EtaFirm,2105550181,eta@firm.com,200
+43219876,890123456789,Dallas,ThetaGmbH,2145550173,theta@gmbh.com,201
+89012345,901234567890,San Diego,IotaLLC,6195550123,iota@llc.com,200
+32198765,012345678901,San Jose,KappaPlc,4085550190,kappa@plc.com,201

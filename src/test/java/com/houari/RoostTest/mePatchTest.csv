@@ -1,0 +1,11 @@
+name,image,settings,statusCode
+John Doe,data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAA,{'theme':'light','language':'en'},200
+Jane Smith,data:image/jpeg;base64,5CYIIAAAABJRU5ErkJggg==,{'theme':'dark','language':'es'},200
+Alice Johnson,data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD,{'theme':'light','language':'fr'},200
+Bob Brown,data:image/jpeg;base64,7gAOQWsSAmrwg3rNBFt6sYF,{'theme':'dark','language':'de'},200
+Charlie Davis,data:image/jpeg;base64,AAABAAEAEBAQAAEaAAUAAAABAAA,{'theme':'light','language':'it'},200
+Diana Evans,data:image/jpeg;base64,2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQE,{'theme':'dark','language':'pt'},200
+Frank Harris,data:image/jpeg;base64,HBgXFxYYFhYXFxYYFhYXFxYY,{'notifications':{'email':true,'sms':false},'privacy':'public'},200
+Gina Wilson,data:image/jpeg;base64,0J/RgNC40LLQtdGCINC00LXQu9Cw0YHRgtCy,{'notifications':{'email':false,'sms':true},'privacy':'private'},200
+Henry King,data:image/jpeg;base64,SEpCY0NFSUJ3Y0NDYVlJQkFRUUE,{'theme':'light','language':'jp'},200
+Ivy Lopez,data:image/jpeg;base64,QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU,{'theme':'dark','language':'cn'},200
