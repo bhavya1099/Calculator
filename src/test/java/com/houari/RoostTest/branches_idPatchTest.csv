@@ -1,0 +1,11 @@
+id,tradeName,phone,email,statusCode
+b3f4ee58-3930-44d3-a5e7-93514ca7278f,TradeA,1234567890,tradeA@email.com,200
+a2d2fe34-5715-4ef0-9b76-1a8f8257b92a,TradeB,0987654321,tradeB@email.com,401
+c1b1de45-6820-4932-8f36-2b9f3456c7de,TradeC,1122334455,tradeC@email.com,400
+d0c0fd56-7931-5023-9f47-3c8d4567d8ef,TradeD,2233445566,tradeD@email.com,200
+e9d9ee67-8942-6124-af58-4d7e5678e9ff,TradeE,3344556677,tradeE@email.com,401
+f8e8df78-9053-7225-bg69-5e6f6788f0gg,TradeF,4455667788,tradeF@email.com,400
+g7d7cg89-0164-8326-ch7a-6f7g7890g1hh,TradeG,5566778899,tradeG@email.com,200
+h6c6bh9a-1275-9427-di8b-7g8h8901h2ii,TradeH,6677889900,tradeH@email.com,401
+i5b5ai0b-2386-0528-ej9c-8h9i9012i3jj,TradeI,7788990011,tradeI@email.com,400
+j4a4jz1c-3497-1629-fk0d-9i0j0123j4kk,TradeJ,8899001122,tradeJ@email.com,200

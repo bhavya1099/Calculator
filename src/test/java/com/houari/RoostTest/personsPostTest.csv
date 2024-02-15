@@ -1,0 +1,11 @@
+initials,firstName,middleName,lastName,birthDate,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode
+JH,John,Harold,Smith,1980-02-15,New York,1234567890,johnsmith@gmail.com,10001,123,A,US,REF123,201
+KD,Kate,Diane,Johnson,1990-05-10,Los Angeles,0987654321,katejohnson@gmail.com,90001,456,B,US,REF456,201
+LM,Luke,Michael,Brown,1985-08-20,Chicago,1122334455,lukebrown@gmail.com,60629,789,C,US,REF789,201
+NP,Nancy,Patricia,Miller,1995-06-15,Houston,2233445566,nancymiller@gmail.com,77001,321,D,US,REF321,201
+RS,Richard,Steven,Davis,1987-03-30,Phoenix,3344556677,richarddavis@gmail.com,85001,654,E,US,REF654,201
+TW,Tom,Walter,Garcia,1992-07-25,Philadelphia,4455667788,tomgarcia@gmail.com,19104,987,F,US,REF987,201
+VG,Vera,Grace,Martinez,1989-04-20,San Antonio,5566778899,veramartinez@gmail.com,78201,135,G,US,REF135,201
+XY,Xavier,York,Robinson,1993-09-15,San Diego,6677889900,xavierrobinson@gmail.com,92101,246,H,US,REF246,201
+ZB,Zoe,Belle,Clark,1994-12-10,Dallas,7788990011,zoeclark@gmail.com,75201,369,I,US,REF369,201
+AC,Alex,Charlie,Lewis,1991-01-05,San Jose,8899001122,alexlewis@gmail.com,95101,852,J,US,REF852,201

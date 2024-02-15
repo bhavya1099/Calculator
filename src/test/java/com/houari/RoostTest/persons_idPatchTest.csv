@@ -1,0 +1,11 @@
+id,initials,firstName,middleName,lastName,birthDate,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode
+1E3A2B4C5D6F,JK,John,Kennedy,Smith,1992-02-28,New York,2125559876,johnsmith@gmail.com,10001,123,A,US,REF123456,200
+2G4H5I6J7K8L,LM,Linda,Martin,Johnson,1985-06-12,Los Angeles,3105551234,lindajohnson@gmail.com,90001,456,B,US,REF789012,200
+3M4N5O6P7Q8R,NP,Nancy,Powell,Williams,1978-11-05,Chicago,3125555678,nancywilliams@gmail.com,60601,789,C,US,REF345678,200
+4S5T6U7V8W9X,TU,Tom,Underwood,Brown,1965-03-22,Houston,7135559012,tombrown@gmail.com,77001,012,D,US,REF901234,200
+5Y6Z7A8B9C0D,ZA,Zach,Anderson,Jones,1990-07-15,Phoenix,6025553456,zachjones@gmail.com,85001,345,E,US,REF567890,200
+6D7E8F9G0H1I,EF,Ella,Fitzgerald,Miller,1982-12-30,Philadelphia,2155556789,ellamiller@gmail.com,19101,678,F,US,REF234567,200
+7I8J9K0L1M2N,IJ,Isaac,Jenkins,Davis,1975-04-18,San Antonio,2105551234,isaacdavis@gmail.com,78201,901,G,US,REF890123,200
+8N9O0P1Q2R3S,OP,Oscar,Peterson,Garcia,1988-09-23,San Diego,6195555678,oscargarcia@gmail.com,92101,234,H,US,REF678901,200
+9S0T1U2V3W4X,ST,Sarah,Thompson,Rodriguez,1993-10-10,Dallas,2145559012,sarahrodriguez@gmail.com,75201,567,I,US,REF123890,200
+0X1Y2Z3A4B5C6,XY,Xavier,Young,Martinez,1980-01-25,San Jose,4085553456,xaviermartinez@gmail.com,95101,890,J,US,REF789012,200

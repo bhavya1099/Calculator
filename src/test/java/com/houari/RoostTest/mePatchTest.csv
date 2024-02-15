@@ -1,0 +1,11 @@
+name,image,settings,statusCode
+John Doe,data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD,{'theme':'dark','notifications':'on'},200
+Jane Doe,data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD,{'theme':'light','notifications':'off'},200
+Mark Smith,data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD,{'theme':'dark','notifications':'on'},401
+Emily Johnson,data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD,{'theme':'light','notifications':'off'},400
+Robert Brown,data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD,{'theme':'dark','notifications':'off'},200
+Emma Davis,data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD,{'theme':'light','notifications':'on'},200
+Michael Miller,data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD,{'theme':'dark','notifications':'off'},401
+Sophia Wilson,data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD,{'theme':'light','notifications':'on'},400
+Daniel Moore,data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD,{'theme':'dark','notifications':'on'},200
+Olivia Taylor,data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD,{'theme':'light','notifications':'off'},200

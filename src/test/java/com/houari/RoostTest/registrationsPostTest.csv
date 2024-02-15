@@ -1,0 +1,11 @@
+id,reference,startDate,endDate,credentialUrl,statusCode
+3e57b7b2-8f13-4fb5-8fb2-8d36e499c31d,ref1,2022-01-01,2022-12-31,http://example.com/1,201
+a1d5b7c2-9f13-4eb5-9fb2-9d36e599c32d,ref2,2022-02-01,2022-11-30,http://example.com/2,400
+b2e68c3d-af24-5fc6-afb3-ad47f6aa0d3e,ref3,2022-03-01,2022-10-31,http://example.com/3,401
+c3f79d4e-bg35-6gd7-bgc4-be58g7bb1e4f,ref4,2022-04-01,2022-09-30,http://example.com/4,201
+d4g8ae5f-ch46-7dh8-chd5-cf69h8cc2f5g,ref5,2022-05-01,2022-08-31,http://example.com/5,400
+e5h9bf6g-di57-8ei9-die6-dg7ai9dd3g6h,ref6,2022-06-01,2022-07-31,http://example.com/6,401
+f6i0cg7h-ej68-9fj0-ejf7-eh8bj0ee4h7i,ref7,2022-07-01,2022-06-30,http://example.com/7,201
+g7j1dh8i-fk79-agk1-fkg8-fi9ck1ff5i8j,ref8,2022-08-01,2022-05-31,http://example.com/8,400
+h8k2ei9j-gl8a-bhl2-ghl9-gj0dl2gg6j9k,ref9,2022-09-01,2022-04-30,http://example.com/9,401
+i9l3fj0k-hm9b-cim3-him0-hk1em3hh7k0l,ref10,2022-10-01,2022-03-31,http://example.com/10,201
