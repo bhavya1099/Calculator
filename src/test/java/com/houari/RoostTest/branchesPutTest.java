@@ -87,16 +87,16 @@ public class BranchesPutTest {
     private void validateSuccessfulResponse(Response response) {
         assertThat(response.jsonPath().get("id"), is(instanceOf(String.class)));
         assertThat(response.jsonPath().get("email"), is(instanceOf(String.class)));
-        assertThat(response.jsonPath().getString("email"), matchesPattern("^[^\s@]+@[^\s@]+\.[^\s@]+$"));
+        assertThat(response.jsonPath().getString("email"), matchesPattern("^[^\\s@]+@[^\\s@]+\\.[^\s@]+$"));
         assertThat(response.jsonPath().get("phone"), is(instanceOf(String.class)));
         assertThat(response.jsonPath().get("cocNumber"), is(instanceOf(String.class)));
-        assertThat(response.jsonPath().getString("cocNumber"), matchesPattern("^\d{8}$"));
+        assertThat(response.jsonPath().getString("cocNumber"), matchesPattern("^\\d{8}$"));
         assertThat(response.jsonPath().get("cocBranchNumber"), is(instanceOf(String.class)));
-        assertThat(response.jsonPath().getString("cocBranchNumber"), matchesPattern("^\d{12}$"));
+        assertThat(response.jsonPath().getString("cocBranchNumber"), matchesPattern("^\\d{12}$"));
         assertThat(response.jsonPath().get("tradeName"), is(instanceOf(String.class)));
         assertThat(response.jsonPath().getList("tradeNames"), is(instanceOf(List.class)));
         assertThat(response.jsonPath().get("eoriNumber"), is(instanceOf(String.class)));
-        assertThat(response.jsonPath().getString("eoriNumber"), matchesPattern("^NL\d{9}$"));
+        assertThat(response.jsonPath().getString("eoriNumber"), matchesPattern("^NL\\d{9}$"));
         assertThat(response.jsonPath().get("deregistrationDate"), is(instanceOf(String.class)));
         assertThat(response.jsonPath().get("createdAt"), is(instanceOf(String.class)));
         assertThat(response.jsonPath().get("updatedAt"), is(instanceOf(String.class)));

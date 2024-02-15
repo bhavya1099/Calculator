@@ -72,7 +72,7 @@ public class personsIdPatchTest {
         System.out.println("Description: successful operation");
 
         assertThat(response.jsonPath().get("id"), instanceOf(String.class));
-        assertThat(response.jsonPath().getString("firstName"), matchesPattern("^[\p{L} .'-]{1,50}$"));
+        assertThat(response.jsonPath().getString("firstName"), matchesPattern("^[\\p{L} .'-]{1,50}$"));
         assertThat(response.jsonPath().get("firstName"), instanceOf(String.class));
     }
 
