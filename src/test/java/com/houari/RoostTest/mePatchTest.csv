@@ -1,0 +1,11 @@
+name,image,settings,statusCode
+John Doe,data:image/jpeg;base64,<clipped>,{"theme":"dark","notifications":true},200
+Jane Smith,data:image/jpeg;base64,<clipped>,{"theme":"light","notifications":false},200
+Alice Johnson,data:image/jpeg;base64,<clipped>,{"theme":"dark","notifications":true},200
+Bob Brown,data:image/jpeg;base64,<clipped>,{"theme":"light","notifications":false},401
+Charlie Davis,data:image/jpeg;base64,<clipped>,{"theme":"dark","notifications":true},400
+Emma Williams,data:image/jpeg;base64,<clipped>,{"theme":"light","notifications":false},200
+George Miller,data:image/jpeg;base64,<clipped>,{"theme":"dark","notifications":true},200
+Hannah Wilson,data:image/jpeg;base64,<clipped>,{"theme":"light","notifications":false},401
+Ivy Thomas,data:image/jpeg;base64,<clipped>,{"theme":"dark","notifications":true},400
+Jack Taylor,data:image/jpeg;base64,<clipped>,{"theme":"light","notifications":false},200

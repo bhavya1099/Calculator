@@ -1,0 +1,11 @@
+email,otp,client,statusCode
+john.doe@gmail.com,123456,mobile,201
+jane.doe@gmail.com,654321,web,201
+alex.smith@gmail.com,987654,api,201
+linda.johnson@gmail.com,456789,mobile,201
+james.brown@gmail.com,987123,desktop,201
+michael.jackson@gmail.com,321654,api,400
+mary.jones@gmail.com,654987,web,201
+robert.miller@gmail.com,789123,mobile,400
+patricia.williams@gmail.com,321987,desktop,201
+jennifer.taylor@gmail.com,123789,api,400
