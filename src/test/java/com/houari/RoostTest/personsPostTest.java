@@ -85,19 +85,19 @@ public class personsPostTest {
           }
       
               if (response.jsonPath().get("firstName") != null) {    
-                MatcherAssert.assertThat(response.jsonPath().getString("firstName"), matchesPattern("^[\p{L} .'-]{1,50}$")); 
+                MatcherAssert.assertThat(response.jsonPath().getString("firstName"), matchesPattern("^[\\p{L} .'-]{1,50}$")); 
   
                 MatcherAssert.assertThat(response.jsonPath().get("firstName"), instanceOf(String.class));  
           }
       
               if (response.jsonPath().get("middleName") != null) {    
-                MatcherAssert.assertThat(response.jsonPath().getString("middleName"), matchesPattern("^[\p{L} .'-]{1,20}$")); 
+                MatcherAssert.assertThat(response.jsonPath().getString("middleName"), matchesPattern("^[\\p{L} .'-]{1,20}$")); 
   
                 MatcherAssert.assertThat(response.jsonPath().get("middleName"), instanceOf(String.class));  
           }
       
               if (response.jsonPath().get("lastName") != null) {    
-                MatcherAssert.assertThat(response.jsonPath().getString("lastName"), matchesPattern("^[\p{L} .'-]{2,50}$")); 
+                MatcherAssert.assertThat(response.jsonPath().getString("lastName"), matchesPattern("^[\\p{L} .'-]{2,50}$")); 
   
                 MatcherAssert.assertThat(response.jsonPath().get("lastName"), instanceOf(String.class));  
           }
@@ -107,7 +107,7 @@ public class personsPostTest {
           }
       
               if (response.jsonPath().get("birthPlace") != null) {    
-                MatcherAssert.assertThat(response.jsonPath().getString("birthPlace"), matchesPattern("^[\p{L} .,'-]{2,100}$")); 
+                MatcherAssert.assertThat(response.jsonPath().getString("birthPlace"), matchesPattern("^[\\p{L} .,'-]{2,100}$")); 
   
                 MatcherAssert.assertThat(response.jsonPath().get("birthPlace"), instanceOf(String.class));  
           }
@@ -117,11 +117,11 @@ public class personsPostTest {
           }
       
               if (response.jsonPath().get("email") != null) {    
-                MatcherAssert.assertThat(response.jsonPath().getString("email"), matchesPattern("^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$")); 
+                MatcherAssert.assertThat(response.jsonPath().getString("email"), matchesPattern("^(([^<>()[\\]\\.,;:\s@\"]+(\\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$")); 
   
                 MatcherAssert.assertThat(response.jsonPath().get("email"), instanceOf(String.class));MatcherAssert.assertThat(
                   response.jsonPath().getString("email"),
-                  Matchers.matchesPattern("^[^\s@]+@[^\s@]+\.[^\s@]+$")
+                  Matchers.matchesPattern("^[^\s@]+@[^\s@]+\\.[^\s@]+$")
                 ); 
   
           }
@@ -133,7 +133,7 @@ public class personsPostTest {
           }
       
               if (response.jsonPath().get("houseNumber") != null) {    
-                MatcherAssert.assertThat(response.jsonPath().getString("houseNumber"), matchesPattern("^\d{1,6}$")); 
+                MatcherAssert.assertThat(response.jsonPath().getString("houseNumber"), matchesPattern("^\\d{1,6}$")); 
   
                 MatcherAssert.assertThat(response.jsonPath().get("houseNumber"), instanceOf(String.class));  
           }

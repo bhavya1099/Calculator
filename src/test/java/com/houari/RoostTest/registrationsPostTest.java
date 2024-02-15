@@ -89,7 +89,7 @@ public class registrationsPostTest {
           }
       
               if (response.jsonPath().get("credentialUrl") != null) {    
-                MatcherAssert.assertThat(response.jsonPath().getString("credentialUrl"), matchesPattern("^\w+:(\/?\/?)[^\s]+$")); 
+                MatcherAssert.assertThat(response.jsonPath().getString("credentialUrl"), matchesPattern("^\\w+:(\\//?\/?)[^\s]+$")); 
   
                 MatcherAssert.assertThat(response.jsonPath().get("credentialUrl"), instanceOf(String.class));  
           }

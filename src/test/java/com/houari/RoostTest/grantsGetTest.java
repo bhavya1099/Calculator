@@ -88,7 +88,7 @@ public class grantsGetTest {
           }
       
               if (response.jsonPath().get("grants["+ i +"].account.name") != null) {    
-                MatcherAssert.assertThat(response.jsonPath().getString("grants["+ i +"].account.name"), matchesPattern("^[\p{L} .'-]{1,100}$")); 
+                MatcherAssert.assertThat(response.jsonPath().getString("grants["+ i +"].account.name"), matchesPattern("^[\\p{L} .'-]{1,100}$")); 
   
                 MatcherAssert.assertThat(response.jsonPath().get("grants["+ i +"].account.name"), instanceOf(String.class));  
           }
@@ -98,7 +98,7 @@ public class grantsGetTest {
           }
       
               if (response.jsonPath().get("grants["+ i +"].account.email") != null) {    
-                MatcherAssert.assertThat(response.jsonPath().getString("grants["+ i +"].account.email"), matchesPattern("^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$")); 
+                MatcherAssert.assertThat(response.jsonPath().getString("grants["+ i +"].account.email"), matchesPattern("^(([^<>()[\\]\\.,;:\s@\"]+(\\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$")); 
   
                 MatcherAssert.assertThat(response.jsonPath().get("grants["+ i +"].account.email"), instanceOf(String.class));MatcherAssert.assertThat(
                   response.jsonPath().getString("grants["+ i +"].account.email"),
