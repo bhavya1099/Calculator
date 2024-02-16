@@ -1,0 +1,11 @@
+id,initials,firstName,middleName,lastName,birthDate,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode
+d3f8c2e6-4d5f-4a7e-8a2c-5e8d2c3969b2,JL,Jane,Louise,Smith,1985-07-23,New York,555-1234,jane.smith@example.com,1234AB,42,,US,Ref-01,200
+f7b3fc4e-4e3b-4f5b-8b2b-4e8d3c3970a2,RA,Robert,Allen,Johnson,1990-05-17,Los Angeles,555-2345,robert.johnson@example.com,56789,108,B,US,Ref-02,200
+8b9f4e3c-5e4d-4a8f-9c2d-5e9f3e4a9c2d,EM,Emily,Mary,Davis,1979-09-30,Chicago,555-3456,emily.davis@example.com,13579,356,A,US,Ref-03,200
+9c8f5e3b-6e5d-4b9f-ad2e-6e0f4e5b0d3e,KS,Kyle,Scott,Brown,1992-12-14,Houston,555-4567,kyle.brown@example.com,2468AC,924,,US,Ref-04,200
+ad5f6e4c-7f6e-5d0a-be2f-7e1f5e6c1d4f,TC,Tara,Chloe,Miller,1982-03-22,Phoenix,555-5678,tara.miller@example.com,68035,482,C,US,Ref-05,200
+be6f7d5d-8f7f-6e1b-cf3f-8e2f6e7d2e5g,DP,Daniel,Paul,Wilson,1995-08-11,Philadelphia,555-6789,daniel.wilson@example.com,97531,513,D,US,Ref-06,200
+cf7g8e6e-9g8g-7f2c-dg4g-9e3g7f8e3f7h,MS,Mary,Susan,Moore,1988-11-07,San Antonio,555-7890,mary.moore@example.com,86420,654,,US,Ref-07,200
+dg8h9f7f-ah9h-8g3d-eh5h-af4h8g9f4g8i,LT,Lucas,Tyler,Jones,1975-02-14,Dallas,555-8901,lucas.jones@example.com,75318,795,E,US,Ref-08,200
+eh9iag8g-bi0i-9h4e-fi6i-bg5i9h0g5h9j,SW,Sarah,Wendy,Taylor,1993-06-28,Austin,555-9012,sarah.taylor@example.com,64297,936,F,US,Ref-09,200
+fi0jbh9h-cj1j-0i5f-gj7j-ch6j0i1h6i0k,JB,James,Brian,Anderson,1980-10-19,San Francisco,555-0123,james.anderson@example.com,53186,177,,US,Ref-10,200

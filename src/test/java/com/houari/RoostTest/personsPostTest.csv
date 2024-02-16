@@ -1,0 +1,11 @@
+initials,firstName,middleName,lastName,birthDate,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode
+JL,John,Lee,Smith,1985-06-15,London,5551234567,john.smith@example.com,1234AB,42,,US,REF1234,201
+RM,Rachel,M.,Doe,1990-09-20,New York,5552345678,rachel.doe@example.com,56789,101,A,CA,REF5678,201
+TD,Tom,D.,Brown,1978-03-12,Sydney,5553456789,tom.brown@example.com,2345BC,56,B,UK,REF9012,201
+MS,Mary,Sue,Johnson,1982-12-02,Toronto,5554567890,mary.johnson@example.com,67890,78,,AU,REF3456,201
+AB,Alice,Beth,White,1995-07-23,Auckland,5555678901,alice.white@example.com,3456CD,90,C,NZ,REF7890,201
+JC,James,Charles,Green,1975-05-17,Cape Town,5556789012,james.green@example.com,89012,12,,ZA,REF1357,201
+KW,Karen,W.,Black,1988-11-30,Amsterdam,5557890123,karen.black@example.com,4567DE,34,D,NL,REF2468,201
+LM,Lisa,Maria,Garcia,1992-02-28,Madrid,5558901234,lisa.garcia@example.com,90123,56,,ES,REF3692,201
+DS,David,Scott,Miller,1969-10-14,Paris,5559012345,david.miller@example.com,5678EF,78,E,FR,REF4805,201
+JK,Julia,Kate,Lopez,1983-04-19,Mexico City,5550123456,julia.lopez@example.com,6789FG,98,,MX,REF1593,201

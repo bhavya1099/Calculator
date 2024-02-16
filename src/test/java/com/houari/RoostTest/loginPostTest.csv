@@ -1,0 +1,11 @@
+email,otp,client,statusCode
+user01@example.com,481726,mobile,201
+user02@example.com,572839,web,201
+user03@example.com,634291,desktop,201
+user04@example.com,785634,api,201
+user05@example.com,926315,mobile,201
+user06@example.com,817263,web,201
+user07@example.com,172839,desktop,201
+user08@example.com,273645,api,201
+user09@example.com,384716,mobile,201
+user10@example.com,495827,web,201
