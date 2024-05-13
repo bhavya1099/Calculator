@@ -12,18 +12,20 @@ import java.util.Map;
 
 public class ThemeLoader {
 
-    private ThemeLoader() {
-        throw new AssertionError("Constructor is not allowed");
-    }
+	private ThemeLoader() {
+		throw new AssertionError("Constructor is not allowed");
+	}
 
-    public static Map<String, Theme> loadThemes() {
-        ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
-        mapper.findAndRegisterModules();
-        try {
-            ThemeList themeList = mapper.readValue(new File("src/main/resources/application.yaml"), ThemeList.class);
-            return themeList.getThemesAsMap();
-        } catch (IOException e) {
-            return Collections.emptyMap();
-        }
-    }
+	public static Map<String, Theme> loadThemes() {
+		ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
+		mapper.findAndRegisterModules();
+		try {
+			ThemeList themeList = mapper.readValue(new File("src/main/resources/application.yaml"), ThemeList.class);
+			return themeList.getThemesAsMap();
+		}
+		catch (IOException e) {
+			return Collections.emptyMap();
+		}
+	}
+
 }
