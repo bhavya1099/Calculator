@@ -74,30 +74,48 @@ public class ThemeLoaderLoadThemesTest {
 
 	@Test
 	public void testLoadThemesSuccessfully() {
+    try{
 		Mockito.when(objectMapper.readValue(new File("src/main/resources/application.yaml"), ThemeList.class))
 			.thenReturn(getMockThemeList());
 		Map<String, Theme> themes = ThemeLoader.loadThemes();
 
 		assertFalse(themes.isEmpty(), "Themes should not be empty");
 		assertTrue(themes.containsKey("sample-theme"), "Expected theme was not loaded");
-	}
+    } 
+      catch (IOException e) {
+            // Handle the exception, possibly log it
+            e.printStackTrace();
+        }
+    }
+	
 
 	@Test
 	public void testLoadThemesWithMissingFile() {
+    try{
 		Mockito.when(objectMapper.readValue(new File("src/main/resources/application.yaml"), ThemeList.class))
 			.thenThrow(IOException.class);
 
 		Map<String, Theme> themes = ThemeLoader.loadThemes();
 
 		assertTrue(themes.isEmpty(), "Themes should be empty");
+  } 
+    catch (IOException e) {
+            // Handle the exception, possibly log it
+            e.printStackTrace();
+        }
+  
 	}
 
 	@Test
 	public void testLoadThemesWithIncorrectlyFormattedFile() {
+    try{
 		Mockito.when(objectMapper.readValue(new File("src/main/resources/application.yaml"), ThemeList.class))
 			.thenThrow(IOException.class);
 		Map<String, Theme> themes = ThemeLoader.loadThemes();
 		assertTrue(themes.isEmpty(), "Themes should be empty");
+    } catch(IOException e){
+e.printStackTrace();
+    }
 	}
 
 	private ThemeList getMockThemeList() {
