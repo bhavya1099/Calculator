@@ -32,11 +32,11 @@ Feature: Check broadband service availability and selection
     * url RESOURCEPOOLMANAGEMENT_DB0413CB31_URL
     * def RESOURCEPOOLMANAGEMENT_DB0413CB31_AUTH_TOKEN = karate.properties['RESOURCEPOOLMANAGEMENT_DB0413CB31_AUTH_TOKEN'] || karate.get('RESOURCEPOOLMANAGEMENT_DB0413CB31_AUTH_TOKEN', 'Bearer_Dummy_Token')
     * header Authorization = RESOURCEPOOLMANAGEMENT_DB0413CB31_AUTH_TOKEN
-    Given a customer base where each customer has a unique subscriber ID
+    #Given a customer base where each customer has a unique subscriber ID
 
   Scenario Outline: Selecting a broadband package based on availability
-    * def customerId = '<customerId>'
-    * def package = '<package>'
+    * def customerId = <customerId>
+    * def package = <package>
     Given path '/availabilityCheck'
     And request { customer: '#(customerId)', address: '#(package)' }
     When method post
