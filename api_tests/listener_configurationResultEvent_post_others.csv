@@ -1,0 +1,11 @@
+subscriberId^|^type^|^frequencyBand^|^wifiWPAKey^|^wifiIndex^|^SSID^|^passwd^|^broadcastSSID^|^wifiChannel^|^mode^|^statusCode^|^scenario
+USR001^|^HGW_WIFI_ENABLE^|^2.4GHz^|^abcde12345^|^1^|^HomeNetwork^|^pass1234^|^true^|^11^|^WPAand11i^|^200^|^NormalOperation
+USR002^|^HGW_WIFI_DISABLE^|^5GHz^|^abcd1234^|^2^|^OfficeWifi^|^password!^|^false^|^36^|^11i^|^300^|^Maintenance
+USR003^|^HGW_WIFI_SET_PASSWD^|^2.4GHz^|^qwert67890^|^3^|^GuestArea^|^newpass2^|^true^|^6^|^Basic^|^500^|^ConfigurationChange
+USR004^|^HGW_WIFI_CONFIGURATION^|^5.8GHz^|^zxcvb54321^|^4^|^CafeHotspot^|^12345^|^false^|^40^|^11i^|^404^|^ErrorState
+USR005^|^GPON_ONT_RESET^|^2.4GHz^|^asdfg98765^|^5^|^LibraryNet^|^admin123^|^true^|^9^|^WPAand11i^|^200^|^ResetScenario
+USR006^|^HGW_WIFI_ENABLE^|^5GHz^|^lkjhg54321^|^6^|^HomeNetwork2^|^p@ssw0rd^|^false^|^44^|^Basic^|^200^|^NormalOperation
+USR007^|^HGW_WIFI_DISABLE^|^2.4GHz^|^09876tyuio^|^7^|^OfficeWifi2^|^letmein^|^true^|^3^|^WPAand11i^|^300^|^Maintenance
+USR008^|^HGW_WIFI_SET_PASSWD^|^5.8GHz^|^5678dfghjk^|^8^|^GuestArea2^|^changeme^|^false^|^48^|^11i^|^500^|^ConfigurationChange
+USR009^|^HGW_WIFI_CONFIGURATION^|^2.4GHz^|^4567cvbnm^|^9^|^CafeHotspot2^|^password123^|^true^|^1^|^Basic^|^404^|^ErrorState
+USR010^|^GPON_ONT_RESET^|^5GHz^|^192837465^|^10^|^LibraryNet2^|^admin321^|^false^|^52^|^11i^|^200^|^ResetScenario

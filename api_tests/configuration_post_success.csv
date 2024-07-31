@@ -1,0 +1,11 @@
+subscriberId^|^type^|^frequencyBand^|^wifiIndex^|^passwd^|^mode^|^statusCode^|^scenario
+SVTAL002^|^HGW_WIFI_ENABLE^|^2.4GHz^|^1^|^pass1234^|^WPAand11i^|^200^|^Configuration
+SVTAL003^|^HGW_WIFI_DISABLE^|^5GHz^|^2^|^pass5678^|^11i^|^404^|^Maintenance
+SVTAL004^|^HGW_WIFI_SET_PASSWD^|^5GHz^|^3^|^newPass890^|^Basic^|^500^|^Upgrade
+SVTAL005^|^HGW_WIFI_CONFIGURATION^|^2.4GHz^|^4^|^myPass321^|^11i^|^200^|^Installation
+SVTAL006^|^GPON_ONT_RESET^|^2.4GHz^|^5^|^abc123xyz^|^WPAand11i^|^303^|^Reset
+SVTAL007^|^HGW_WIFI_ENABLE^|^5GHz^|^6^|^123secure^|^Basic^|^202^|^Configuration
+SVTAL008^|^HGW_WIFI_DISABLE^|^2.4GHz^|^7^|^pass4321^|^11i^|^401^|^Maintenance
+SVTAL009^|^HGW_WIFI_SET_PASSWD^|^5GHz^|^8^|^setNewPass123^|^WPAand11i^|^503^|^Upgrade
+SVTAL010^|^HGW_WIFI_CONFIGURATION^|^2.4GHz^|^9^|^configPass321^|^Basic^|^204^|^Installation
+SVTAL011^|^GPON_ONT_RESET^|^5GHz^|^10^|^resetPass456^|^11i^|^305^|^Reset

@@ -1,0 +1,11 @@
+actionType^|^frequencyBand^|^wifiWPAKey^|^wifiIndex^|^SSID^|^passwd^|^broadcastSSID^|^wifiChannel^|^mode^|^subscriberId^|^statusCode^|^scenario
+HGW_WIFI_ENABLE^|^2.4GHz^|^ab78Df!23^|^1^|^HomeNetwork^|^password123^|^1^|^6^|^WPAand11i^|^SVTAL001^|^200^|^Configuration
+HGW_WIFI_DISABLE^|^5GHz^|^jk90#422^|^2^|^OfficeWifi^|^admin2020^|^0^|^11^|^11i^|^SVTAL002^|^404^|^Disable
+HGW_WIFI_SET_PASSWD^|^5GHz^|^suP3rS3cur3!!^|^3^|^CafeNet^|^newpass456^|^1^|^9^|^Basic^|^SVTAL003^|^200^|^Password Change
+HGW_WIFI_CONFIGURATION^|^^|^12345678^|^4^|^LibraryNet^|^lib2021^|^0^|^^|^11i^|^SVTAL004^|^500^|^Setup
+GPON_ONT_RESET^|^2.4GHz^|^87654321^|^5^|^Bookstore^|^booklover^|^1^|^3^|^WPAand11i^|^SVTAL005^|^301^|^Reset
+HGW_WIFI_ENABLE^|^5GHz^|^pass9999^|^6^|^MusicZone^|^rock1000^|^0^|^7^|^11i^|^SVTAL006^|^200^|^Configuration
+HGW_WIFI_CONFIGURATION^|^2.4GHz^|^abc123!@#^|^7^|^Videorama^|^watch789^|^1^|^4^|^WPAand11i^|^SVTAL007^|^200^|^Configuration
+HGW_WIFI_DISABLE^|^5GHz^|^xyz987^|^8^|^GameHub^|^playtime^|^0^|^10^|^Basic^|^SVTAL008^|^404^|^Disable
+HGW_WIFI_SET_PASSWD^|^2.4GHz^|^pwchange^|^9^|^GuestNet^|^guest1234^|^1^|^2^|^11i^|^SVTAL009^|^200^|^Password Change
+HGW_WIFI_CONFIGURATION^|^5GHz^|^simplepass^|^10^|^EventWiFi^|^event2022^|^0^|^8^|^Basic^|^SVTAL010^|^500^|^Setup

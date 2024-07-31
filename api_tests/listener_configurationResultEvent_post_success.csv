@@ -1,0 +1,11 @@
+subscriberId^|^actionType^|^frequencyBand^|^wifiWPAKey^|^wifiIndex^|^SSID^|^passwd^|^broadcastSSID^|^wifiChannel^|^mode^|^statusCode^|^scenario
+USR001^|^HGW_WIFI_ENABLE^|^2.4GHz^|^Abc12345^|^1^|^HomeNet1^|^pass1234^|^true^|^6^|^WPAand11i^|^200^|^Setup
+USR002^|^HGW_WIFI_DISABLE^|^5GHz^|^Def12345^|^2^|^HomeNet2^|^pass5678^|^false^|^11^|^11i^|^404^|^Teardown
+USR003^|^HGW_WIFI_SET_PASSWD^|^2.4GHz^|^Ghi12345^|^3^|^HomeNet3^|^newpass9^|^true^|^1^|^Basic^|^503^|^Reset
+USR004^|^HGW_WIFI_CONFIGURATION^|^5GHz^|^Jkl12345^|^4^|^HomeNet4^|^diffpass0^|^false^|^13^|^11i^|^202^|^Update
+USR005^|^GPON_ONT_RESET^|^2.4GHz^|^Mno12345^|^5^|^HomeNet5^|^wordpass1^|^true^|^10^|^WPAand11i^|^301^|^Restart
+USR006^|^HGW_WIFI_ENABLE^|^5GHz^|^Pqr12345^|^6^|^HomeNet6^|^pass2345^|^false^|^9^|^Basic^|^200^|^Setup
+USR007^|^HGW_WIFI_DISABLE^|^2.4GHz^|^Stu12345^|^7^|^HomeNet7^|^pass6789^|^true^|^4^|^WPAand11i^|^404^|^Teardown
+USR008^|^HGW_WIFI_SET_PASSWD^|^5GHz^|^Vwx12345^|^8^|^HomeNet8^|^newpass2^|^false^|^14^|^11i^|^503^|^Reset
+USR009^|^HGW_WIFI_CONFIGURATION^|^2.4GHz^|^Yza12345^|^9^|^HomeNet9^|^diffpass3^|^true^|^3^|^Basic^|^202^|^Update
+USR010^|^GPON_ONT_RESET^|^5GHz^|^Bcd12345^|^10^|^HomeNet10^|^wordpass4^|^false^|^12^|^11i^|^301^|^Restart
