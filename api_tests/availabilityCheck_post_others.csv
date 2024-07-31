@@ -1,0 +1,11 @@
+subscriberId^|^addressId^|^type^|^description^|^value^|^statusCode^|^scenario
+SVTL001^|^14393^|^ES^|^High value customer^|^ARC201^|^200^|^New Subscription
+SVTL002^|^2449^|^AP^|^Regular customer^|^ARC202^|^200^|^Renewal
+SVTL003^|^3001^|^WR^|^Late payments^|^ARC203^|^404^|^Payment Issue
+SVTL004^|^4002^|^RM^|^Frequent upgrades^|^ARC204^|^200^|^Upgrade
+SVTL005^|^5003^|^ES^|^Customer since 2010^|^ARC205^|^200^|^Loyalty Program
+SVTL006^|^6004^|^AP^|^Moved to new address^|^ARC206^|^301^|^Address Change
+SVTL007^|^7005^|^WR^|^Requested downgrade^|^ARC207^|^200^|^Downgrade
+SVTL008^|^8006^|^RM^|^Reported service issue^|^ARC208^|^500^|^Service Issue
+SVTL009^|^9007^|^ES^|^Added family members^|^ARC209^|^200^|^Family Plan
+SVTL010^|^10008^|^AP^|^Switched payment method^|^ARC210^|^200^|^Payment Update
