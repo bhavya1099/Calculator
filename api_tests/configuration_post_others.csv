@@ -1,0 +1,11 @@
+actionType^|^frequencyBand^|^wifiWPAKey^|^wifiIndex^|^SSID^|^passwd^|^broadcastSSID^|^wifiChannel^|^mode^|^subscriberId^|^statusCode^|^scenario
+HGW_WIFI_ENABLE^|^2.4GHz^|^ab23cd45ef^|^1^|^HomeNet^|^12345678^|^1^|^6^|^WPAand11i^|^SVTAL001^|^200^|^Standard
+HGW_WIFI_DISABLE^|^5GHz^|^cd45ef67gh^|^2^|^GuestNet^|^87654321^|^0^|^11^|^11i^|^SVTAL002^|^404^|^Guest
+HGW_WIFI_SET_PASSWD^|^2.4GHz^|^ef67gh89ij^|^3^|^IoTNet^|^abcdefg^|^1^|^9^|^Basic^|^SVTAL003^|^500^|^IoT
+HGW_WIFI_CONFIGURATION^|^5GHz^|^gh89ijkl00^|^4^|^OfficeNet^|^pass1234^|^0^|^7^|^WPAand11i^|^SVTAL004^|^200^|^Office
+GPON_ONT_RESET^|^2.4GHz^|^ijkl00mn12^|^5^|^CafeNet^|^cafe6789^|^1^|^13^|^11i^|^SVTAL005^|^200^|^Cafe
+HGW_WIFI_ENABLE^|^5GHz^|^00mn12op34^|^6^|^LibraryNet^|^lib12345^|^0^|^8^|^Basic^|^SVTAL006^|^503^|^Library
+HGW_WIFI_DISABLE^|^2.4GHz^|^12op34qr56^|^7^|^ShopNet^|^shop4321^|^1^|^5^|^WPAand11i^|^SVTAL007^|^400^|^Shop
+HGW_WIFI_SET_PASSWD^|^5GHz^|^34qr56st78^|^8^|^null^|^stuvwxyz^|^0^|^10^|^11i^|^SVTAL008^|^301^|^ErrorCase
+HGW_WIFI_CONFIGURATION^|^2.4GHz^|^56st78uv90^|^9^|^GameNet^|^gamepass^|^1^|^4^|^Basic^|^SVTAL009^|^200^|^Gaming
+GPON_ONT_RESET^|^5GHz^|^78uv90wx23^|^10^|^VRNet^|^vrsecure^|^0^|^12^|^WPAand11i^|^SVTAL010^|^200^|^VR

@@ -1,0 +1,11 @@
+subscriberId^|^addressId^|^complementType^|^complementDescription^|^complementValue^|^statusCode^|^scenario
+SVTL001^|^14393^|^ES^|^Extended Suite^|^ARC201^|^Active^|^Primary
+SVTL002^|^2449^|^RM^|^Room Number^|^402^|^Pending^|^Secondary
+SVTL003^|^3587^|^FL^|^Floor^|^6^|^Active^|^Primary
+SVTL004^|^4711^|^BL^|^Building^|^B3^|^Inactive^|^Tertiary
+SVTL005^|^5822^|^SE^|^Section^|^East Wing^|^Pending^|^Secondary
+SVTL006^|^6933^|^WT^|^Wing Type^|^North^|^Active^|^Primary
+SVTL007^|^8044^|^LT^|^Lot^|^37B^|^Inactive^|^Tertiary
+SVTL008^|^9155^|^ST^|^Suite^|^501^|^Pending^|^Secondary
+SVTL009^|^10266^|^AP^|^Apartment^|^23A^|^Active^|^Primary
+SVTL010^|^11377^|^BX^|^Box^|^Storage 5^|^Inactive^|^Tertiary

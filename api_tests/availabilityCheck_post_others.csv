@@ -1,0 +1,11 @@
+subscriberId^|^addressId^|^type^|^description^|^value^|^statusCode^|^scenario
+SVTL001^|^14393^|^ES^|^High Apartment^|^ARC201^|^200^|^Initial Setup
+SVTL002^|^2449^|^APT^|^Lower Block^|^BLK102^|^404^|^Maintenance
+SVTL003^|^5896^|^HOUSE^|^Single Family House^|^SFH300^|^200^|^Upgrade
+SVTL004^|^7391^|^FLAT^|^Residential Flat^|^RFL450^|^200^|^New Installation
+SVTL005^|^1223^|^^|^Missing Type^|^MTY500^|^400^|^Error Handling
+INVALID006^|^8374^|^OFFICE^|^Corporate Building^|^CBU700^|^500^|^New Client
+SVTL007^|^9023^|^STORE^|^Retail Store^|^RST850^|^200^|^Expansion
+SVTL008^|^4502^|^ES^|^Eastern Sector^|^ES900^|^300^|^Security Update
+SVTL009^|^6345^|^APT^|^Apartment Complex^|^APX950^|^200^|^Renovation
+SVTL010^|^7777^|^HOUSE^|^Detached House^|^DTH1000^|^200^|^Inspection
