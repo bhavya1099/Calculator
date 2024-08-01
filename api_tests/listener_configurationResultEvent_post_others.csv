@@ -1,0 +1,11 @@
+subscriberId^|^type^|^frequencyBand^|^wifiWPAKey^|^wifiIndex^|^SSID^|^passwd^|^broadcastSSID^|^wifiChannel^|^mode^|^statusCode^|^scenario
+USR001^|^HGW_WIFI_ENABLE^|^2.4GHz^|^abcde12345^|^1^|^HomeNet^|^pass1234^|^true^|^11^|^WPAand11i^|^200^|^Normal
+USR002^|^HGW_WIFI_DISABLE^|^5GHz^|^12345abcde^|^2^|^OfficeNet^|^admin2023^|^false^|^36^|^11i^|^404^|^Maintenance
+USR003^|^HGW_WIFI_SET_PASSWD^|^2.4GHz^|^9876xyz^|^3^|^GuestNet^|^guest2023^|^true^|^6^|^Basic^|^500^|^Configuration
+USR004^|^HGW_WIFI_CONFIGURATION^|^5GHz^|^qwertz6789^|^4^|^CafeNet^|^cafe1234^|^false^|^40^|^11i^|^302^|^Update
+USR005^|^GPON_ONT_RESET^|^2.4GHz^|^asdfg4321^|^5^|^LibraryNet^|^lib2023^|^true^|^7^|^WPAand11i^|^503^|^Reset
+USR006^|^HGW_WIFI_CONFIGURATION^|^5GHz^|^zxcvb5678^|^6^|^ShopNet^|^shop999^|^false^|^44^|^Basic^|^202^|^Repair
+USR007^|^HGW_WIFI_ENABLE^|^2.4GHz^|^lkjhgf1234^|^7^|^HomeNet2^|^pass5678^|^true^|^8^|^11i^|^404^|^Upgrade
+USR008^|^HGW_WIFI_DISABLE^|^5GHz^|^09876tyuiop^|^8^|^OfficeNet2^|^admin5678^|^false^|^48^|^WPAand11i^|^200^|^Diagnostics
+USR009^|^HGW_WIFI_SET_PASSWD^|^2.4GHz^|^^|^9^|^GuestNet2^|^guest5678^|^true^|^10^|^Basic^|^500^|^Testing
+USR010^|^HGW_WIFI_CONFIGURATION^|^5GHz^|^poiuy0987^|^10^|^CafeNet2^|^cafe5678^|^false^|^52^|^11i^|^302^|^Installation
