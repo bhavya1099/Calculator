@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+post^|^/availabilityCheck^|^{}^|^{}^|^200^|^{ "control": { "type": "S", "message": "Success", "code": "ACK200" }, "resource": { "inventoryId": 1234567890, "maxBandwidth": 1000, "availabilityType": 1, "availabilityCode": 0, "availabilityDescription": "Available", "products": { "productDetails": [] } } }
