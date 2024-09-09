@@ -1,0 +1,11 @@
+0^|^1
+cluster1^|^{ "topic_name": "topic-1", "statusCode": 204 }
+cluster2^|^{ "topic_name": "topic-1", "statusCode": 400 }
+cluster3^|^{ "topic_name": "topic-1", "statusCode": 401 }
+cluster4^|^{ "topic_name": "topic-1", "statusCode": 403 }
+cluster5^|^{ "topic_name": "topic-1", "statusCode": 404 }
+cluster6^|^{ "topic_name": "topic-1", "statusCode": 429 }
+cluster7^|^{ "topic_name": "topic-1", "statusCode": 500 }
+cluster8^|^{ "topic_name": "topic-1", "statusCode": 204 }
+cluster9^|^{ "topic_name": "topic-1", "statusCode": 400 }
+cluster10^|^{ "topic_name": "topic-1", "statusCode": 401 }
