@@ -1,0 +1,11 @@
+symbol^|^AdditionalCSVvaluInfo^|^apikey^|^function^|^RequestBody^|^statusCode
+AAPL^|^TIME_SERIES_DAILY_ADJUSTED^|^api123^|^GET^|^{\"request\":\"info\"}^|^200
+GOOG^|^TIME_SERIES_DAILY_ADJUSTED^|^api124^|^POST^|^{\"request\":\"update\"}^|^200
+MSFT^|^TIME_SERIES_DAILY_ADJUSTED^|^api125^|^DELETE^|^{\"request\":\"delete\"}^|^200
+AMZN^|^TIME_SERIES_DAILY_ADJUSTED^|^api126^|^PUT^|^{\"request\":\"create\"}^|^200
+FB^|^TIME_SERIES_DAILY_ADJUSTED^|^api127^|^PATCH^|^{\"request\":\"modify\"}^|^200
+TSLA^|^TIME_SERIES_DAILY_ADJUSTED^|^api128^|^GET^|^{\"request\":\"fetch\"}^|^200
+NFLX^|^TIME_SERIES_DAILY_ADJUSTED^|^api129^|^POST^|^{\"request\":\"insert\"}^|^200
+INTC^|^TIME_SERIES_DAILY_ADJUSTED^|^api130^|^DELETE^|^{\"request\":\"remove\"}^|^200
+AMD^|^TIME_SERIES_DAILY_ADJUSTED^|^api131^|^PUT^|^{\"request\":\"add\"}^|^200
+SNAP^|^TIME_SERIES_DAILY_ADJUSTED^|^api132^|^PATCH^|^{\"request\":\"change\"}^|^200
