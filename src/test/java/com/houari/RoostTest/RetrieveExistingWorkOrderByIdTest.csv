@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^/workorders/WO123^|^{}^|^{}^|^200^|^{ "id": "WO123", "status": "completed", "details": "Work order details here" }

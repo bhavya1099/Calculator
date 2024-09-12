@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^/workorders?status=Open^|^{\"Content-Type\":\"application/json\"}^|^{}^|^200^|^{\"workOrders\":[{\"id\":\"1\",\"status\":\"Open\",\"details\":\"Order details for item X\"},{\"id\":\"2\",\"status\":\"Open\",\"details\":\"Order details for item Y\"}]}
