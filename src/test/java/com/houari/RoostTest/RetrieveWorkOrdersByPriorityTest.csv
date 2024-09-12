@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^/workorders?priority=High^|^^|^{}^|^200^|^[{"id": 1, "status": "Open", "priority": "High", "description": "Fix the AC"}, {"id": 2, "status": "Open", "priority": "High", "description": "Repair the door"}]
