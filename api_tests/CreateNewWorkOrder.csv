@@ -1,0 +1,11 @@
+workOrderId^|^description^|^status^|^priority^|^assignedTo^|^createdDate^|^dueDate^|^statusCode^|^scenario
+1^|^Fix broken pipe^|^Pending^|^High^|^John Smith^|^2023-01-01^|^2023-01-05^|^100^|^Maintenance
+2^|^Replace AC filter^|^Completed^|^Medium^|^Jane Doe^|^2023-01-02^|^2023-01-06^|^200^|^Installation
+3^|^Install new software^|^In Progress^|^Low^|^Mike Johnson^|^2023-01-03^|^2023-01-07^|^300^|^Upgrade
+4^|^Repair door hinge^|^Pending^|^High^|^Chris Lee^|^2023-01-04^|^2023-01-08^|^100^|^Maintenance
+5^|^Check network cables^|^Completed^|^Medium^|^Patricia Young^|^2023-01-05^|^2023-01-09^|^200^|^Inspection
+6^|^Update security system^|^In Progress^|^Low^|^Evan Turner^|^2023-01-06^|^2023-01-10^|^300^|^Upgrade
+7^|^Clean HVAC unit^|^Pending^|^High^|^Laura Bell^|^2023-01-07^|^2023-01-11^|^100^|^Maintenance
+8^|^Replace broken window^|^Completed^|^Medium^|^Samuel Adams^|^2023-01-08^|^2023-01-12^|^200^|^Installation
+9^|^Install security cameras^|^In Progress^|^Low^|^Betty White^|^2023-01-09^|^2023-01-13^|^300^|^Upgrade
+10^|^Paint office walls^|^Pending^|^High^|^Robert Brown^|^2023-01-10^|^2023-01-14^|^100^|^Maintenance

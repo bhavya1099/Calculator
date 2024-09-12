@@ -1,0 +1,11 @@
+id^|^statusCode^|^scenario
+1^|^200^|^Normal
+2^|^404^|^NotFound
+3^|^500^|^ServerError
+4^|^200^|^Normal
+5^|^403^|^Forbidden
+6^|^200^|^Normal
+7^|^400^|^BadRequest
+8^|^200^|^Normal
+9^|^401^|^Unauthorized
+10^|^200^|^Normal

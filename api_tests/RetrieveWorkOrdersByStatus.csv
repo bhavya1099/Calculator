@@ -1,0 +1,11 @@
+status^|^statusCode^|^scenario
+active^|^200^|^user login
+inactive^|^403^|^user logout
+active^|^200^|^data update
+active^|^201^|^new registration
+inactive^|^404^|^profile access
+active^|^200^|^password change
+inactive^|^401^|^unauthorized access
+active^|^202^|^user confirmation
+inactive^|^400^|^bad request
+active^|^200^|^session timeout

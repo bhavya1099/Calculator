@@ -1,0 +1,11 @@
+cluster_id^|^statusCode^|^scenario
+1^|^200^|^normal_operation
+2^|^404^|^page_not_found
+3^|^500^|^server_error
+4^|^200^|^normal_operation
+5^|^403^|^forbidden_access
+6^|^200^|^normal_operation
+7^|^400^|^bad_request
+8^|^401^|^unauthorized_access
+9^|^200^|^normal_operation
+10^|^501^|^not_implemented
