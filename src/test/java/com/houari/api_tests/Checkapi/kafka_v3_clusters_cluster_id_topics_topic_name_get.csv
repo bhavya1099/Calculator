@@ -1,0 +1,5 @@
+cluster_id,topic_name,include_authorized_operations,expected_response,status_code,expected_error
+"cluster-1","topic-1","true","""{ kind: 'KafkaTopic', metadata: '#object', cluster_id: 'cluster-1', topic_name: 'topic-1' }""","404","""{ error_code: 404, message: 'Cluster invalid-id cannot be found.' }"""
+"cluster-1","topic-2","false","""{ kind: 'KafkaTopic', metadata: '#object', cluster_id: 'cluster-1', topic_name: 'topic-2' }""","404","""{ error_code: 40403, message: 'This server does not host this topic-partition.' }"""
+"invalid-id","topic-1","false","""{ kind: 'KafkaTopic', metadata: '#object', cluster_id: 'cluster-1', topic_name: 'topic-1' }""","404","""{ error_code: 404, message: 'Cluster invalid-id cannot be found.' }"""
+"cluster-1","unknown","true","""{ kind: 'KafkaTopic', metadata: '#object', cluster_id: 'cluster-1', topic_name: 'topic-2' }""","404","""{ error_code: 40403, message: 'This server does not host this topic-partition.' }"""

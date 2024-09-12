@@ -1,0 +1,3 @@
+cluster_id,expected_response
+"cluster-1","""{ 'kind': 'KafkaTopicList', 'metadata': { 'self': '#string', 'next': '#null' }, 'data': '#array' }"""
+"cluster-2","""{ 'kind': 'KafkaTopicList', 'metadata': { 'self': '#string', 'next': '#null' }, 'data': '#array' }"""
