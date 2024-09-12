@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^/workorders?assignedTo=John Doe^|^^|^^|^200^|^[{"id":"1","assignedTo":"John Doe","status":"open"},{"id":"2","assignedTo":"John Doe","status":"closed"}]
