@@ -1,0 +1,11 @@
+priority^|^statusCode^|^scenario
+1^|^200^|^Normal_Process
+2^|^404^|^Page_Not_Found
+3^|^500^|^Server_Error
+4^|^403^|^Unauthorized_Access
+5^|^200^|^User_Login
+6^|^201^|^User_Creation
+7^|^400^|^Bad_Request
+8^|^401^|^Authentication_Failure
+9^|^503^|^Service_Unavailable
+10^|^202^|^Request_Accepted

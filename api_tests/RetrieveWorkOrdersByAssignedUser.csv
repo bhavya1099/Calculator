@@ -1,0 +1,11 @@
+assignedTo^|^statusCode^|^scenario
+Alice^|^200^|^normal
+Bob^|^404^|^error
+Charlie^|^500^|^failure
+Diana^|^200^|^normal
+Eve^|^403^|^error
+Frank^|^200^|^normal
+Grace^|^500^|^failure
+Hank^|^404^|^error
+Ivy^|^200^|^normal
+Jack^|^500^|^failure

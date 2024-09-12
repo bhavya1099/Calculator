@@ -1,0 +1,11 @@
+id^|^status^|^priority^|^assignedTo^|^dueDate^|^statusCode^|^scenario
+1^|^active^|^high^|^JohnDoe^|^2023-10-05^|^200^|^scenarioA
+2^|^inactive^|^medium^|^JaneSmith^|^2023-10-06^|^404^|^scenarioB
+3^|^active^|^low^|^EmilyJones^|^2023-10-07^|^500^|^scenarioC
+4^|^active^|^high^|^MikeBrown^|^2023-10-08^|^200^|^scenarioD
+5^|^inactive^|^medium^|^LisaWhite^|^2023-10-09^|^403^|^scenarioE
+6^|^active^|^low^|^DanielLee^|^2023-10-10^|^200^|^scenarioF
+7^|^inactive^|^high^|^SandraHill^|^2023-10-11^|^404^|^scenarioG
+8^|^active^|^medium^|^JamesTaylor^|^2023-10-12^|^500^|^scenarioH
+9^|^inactive^|^low^|^PatriciaAllen^|^2023-10-13^|^403^|^scenarioI
+10^|^active^|^high^|^RobertWilson^|^2023-10-14^|^200^|^scenarioJ
