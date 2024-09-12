@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^/workorders^|^{ "Authorization": "Bearer ACCESS_TOKEN" }^|^{ }^|^200^|^{ "workOrders": [ { "id": "wo1", "status": "open" }, { "id": "wo2", "status": "closed" } ] }

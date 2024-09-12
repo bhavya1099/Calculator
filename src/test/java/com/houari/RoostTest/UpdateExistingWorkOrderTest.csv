@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+PUT^|^/workorders/WO123^|^{\"Content-Type\":\"application/json\"}^|^{\"status\":\"In Progress\",\"priority\":\"Medium\",\"assignedTo\":\"Jane Doe\",\"dueDate\":\"2023-07-20T17:00:00Z\"}^|^200^|^{\"status\":\"In Progress\",\"priority\":\"Medium\",\"assignedTo\":\"Jane Doe\",\"dueDate\":\"2023-07-20T17:00:00Z\"}
