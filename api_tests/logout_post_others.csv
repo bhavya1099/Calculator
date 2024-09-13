@@ -1,0 +1,11 @@
+invalidApiKey^|^invalidPayloadData^|^statusCode^|^scenario
+1234^|^true^|^200^|^Success
+abcd^|^false^|^404^|^NotFound
+^|^missingPayload^|^500^|^ServerError
+5678^|^true^|^^|^Incomplete
+efgh^|^^|^200^|^Success
+null^|^false^|^403^|^Forbidden
+1122^|^true^|^301^|^Redirect
+zzzz^|^^|^504^|^GatewayTimeout
+^|^true^|^200^|^Success
+3344^|^false^|^201^|^Created

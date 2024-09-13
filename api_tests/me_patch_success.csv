@@ -1,0 +1,11 @@
+name^|^image^|^settings^|^statusCode^|^scenario
+Alice^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJHJW^|^{"theme":"dark","notifications":"on"}^|^200^|^Login
+Bob^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKC^|^{"theme":"light","notifications":"off"}^|^200^|^Purchase
+Carol^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAQICAgICAgADAwADAwMDBAcFBAQEBQoHBwYIDAoMDAsKCw^|^{"theme":"dark","notifications":"on"}^|^404^|^Search
+David^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCw^|^{"theme":"light","notifications":"on"}^|^500^|^Update
+Eva^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAQICAgICAgADAwADAwMDBAcFBAQEBQoHBwYIDAoMDAsKCw^|^{"theme":"dark","notifications":"off"}^|^200^|^Login
+Frank^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCw^|^{"theme":"light","notifications":"on"}^|^403^|^Search
+Gina^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAQICAgICAgADAwADAwMDBAcFBAQEBQoHBwYIDAoMDAsKCw^|^{"theme":"dark","notifications":"off"}^|^200^|^Purchase
+Hank^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCw^|^{"theme":"light","notifications":"off"}^|^404^|^Update
+Ivy^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAQICAgICAgADAwADAwMDBAcFBAQEBQoHBwYIDAoMDAsKCw^|^{"theme":"dark","notifications":"on"}^|^500^|^Login
+Jack^|^data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCw^|^{"theme":"light","notifications":"off"}^|^200^|^Purchase

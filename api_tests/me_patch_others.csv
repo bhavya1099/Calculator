@@ -1,0 +1,11 @@
+name^|^unauthorizedField^|^Api-Key^|^statusCode^|^scenario
+John Doe^|^123^|^ABCD1234^|^200^|^Success
+Jane Smith^|^456^|^XYZ7890^|^404^|^NotFound
+Alice Johnson^|^^|^GH12JK34^|^500^|^ServerError
+Bob Brown^|^789^|^LMNOP678^|^403^|^Forbidden
+Charlie Black^|^^|^QWERTY123^|^200^|^Success
+Diana White^|^654^|^ASDFG789^|^301^|^Redirect
+Evan Green^|^321^|^ZXCVB987^|^503^|^ServiceUnavailable
+Fiona Grey^|^987^|^LKJHG345^|^200^|^Success
+George Yellow^|^864^|^POIUY456^|^401^|^Unauthorized
+Helen Purple^|^975^|^MNBVC234^|^202^|^Accepted

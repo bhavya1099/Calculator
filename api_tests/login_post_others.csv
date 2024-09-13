@@ -1,0 +1,11 @@
+email^|^otp^|^client^|^statusCode^|^scenario
+john.doe@example.com^|^123456^|^mobile^|^200^|^login
+jane.smith@webmail.com^|^654321^|^web^|^404^|^purchase
+empty@nomail.com^|^000000^|^desktop^|^500^|^update
+rob^|^none^|^api^|^200^|^delete
+alice.jones@data.com^|^111222^|^mobile^|^403^|^login
+^|^333444^|^desktop^|^200^|^change_password
+noemail^|^777888^|^web^|^301^|^logout
+chris@domain.com^|^999000^|^api^|^^|^create_account
+kate.brown@site.org^|^555666^|^mobile^|^200^|^reset_password
+tom.white@space.com^|^101010^|^desktop^|^400^|^profile_update

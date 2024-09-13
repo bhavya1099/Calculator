@@ -1,0 +1,12 @@
+invalidEmail^|^invalidPassword^|^statusCode^|^scenario
+john.doe^|^12345^|^200^|^LoginSuccess
+jane.doe^|^^|^404^|^PageNotFound
+invalid.email.com^|^password^|^200^|^LoginSuccess
+^|^password123^|^500^|^ServerError
+test.user@example.com^|^test1234^|^200^|^LoginSuccess
+admin@site.com^|^admin^|^403^|^ForbiddenAccess
+user@domain.com^|^^|^200^|^LoginSuccess
+example@domain^|^examplePass^|^301^|^Redirect
+contact@website.com^|^contact123^|^200^|^LoginSuccess
+info@company.com^|^info2023^|^401^|^Unauthorized
+no-reply@service.com^|^noreply^|^200^|^LoginSuccess
