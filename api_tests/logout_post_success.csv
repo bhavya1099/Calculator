@@ -1,0 +1,11 @@
+userId^|^sessionId^|^statusCode^|^scenario
+1^|^101^|^200^|^Login
+2^|^102^|^200^|^Logout
+3^|^103^|^200^|^Purchase
+4^|^104^|^200^|^Login
+5^|^105^|^200^|^Logout
+6^|^106^|^200^|^UpdateProfile
+7^|^107^|^200^|^DeleteAccount
+8^|^108^|^200^|^Login
+9^|^109^|^200^|^Logout
+10^|^110^|^200^|^Purchase

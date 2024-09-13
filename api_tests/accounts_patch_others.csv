@@ -1,0 +1,11 @@
+email^|^token^|^statusCode^|^scenario
+john.doe@example.com^|^12345^|^200^|^login
+jane.doe@sample.net^|^abcde^|^404^|^logout
+alice@example.com^|^67890^|^500^|^update
+bob@example.org^|^fghij^|^503^|^delete
+charlie.brown@invalid^|^101112^|^200^|^create
+eve@anotherexample.com^|^klmno^|^301^|^retrieve
+frank@foo.bar^|^13579^|^400^|^login
+grace@example.com^|^24680^|^200^|^update
+hank@site.com^|^qrstuv^|^204^|^delete
+irene@web.net^|^wxyz^|^^|^logout

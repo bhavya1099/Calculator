@@ -1,0 +1,11 @@
+email^|^statusCode^|^scenario
+alice.smith@email.com^|^200^|^Purchase
+bob.jones@email.com^|^404^|^Login
+carol.brown@email.com^|^500^|^UpdateProfile
+dave.wilson@email.com^|^200^|^Logout
+ellen.johnson@email.com^|^403^|^Signup
+frank.moore@email.com^|^200^|^DeleteAccount
+grace.clark@email.com^|^401^|^ChangePassword
+harry.lewis@email.com^|^200^|^ViewProducts
+irene.walker@email.com^|^404^|^AddToCart
+jake.thomas@email.com^|^500^|^RemoveFromCart

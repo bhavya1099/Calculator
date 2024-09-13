@@ -1,0 +1,11 @@
+email^|^commit-hash
+john.doe@example.com^|^a1b2c3d
+jane.smith@invalid.com^|^z7x8c9v
+alice.jones@example.org^|^
+bob.brown@example.net^|^1x3y5z7
+chris.green@example.com^|^3f4g5h6
+invalid_email^|^
+@example.com^|^abcdef1
+sarah.connor@valid-email.com^|^
+rick.grimes@another-example.com^|^12ab34c
+maggie.rhee@example.info^|^ghijk1
