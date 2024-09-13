@@ -1,0 +1,11 @@
+email^|^otp^|^client^|^statusCode^|^scenario
+johndoe@example.com^|^283947^|^mobile^|^200^|^login
+janedoe@example.com^|^374859^|^web^|^200^|^purchase
+alice.smith@example.com^|^948573^|^desktop^|^404^|^update
+bob.jones@example.com^|^485739^|^api^|^500^|^delete
+carol.white@example.com^|^573920^|^mobile^|^200^|^login
+dave.brown@example.com^|^687945^|^web^|^401^|^access
+eve.black@example.com^|^789034^|^desktop^|^200^|^checkout
+frank.green@example.com^|^890123^|^api^|^503^|^service_down
+grace.grey@example.com^|^901234^|^mobile^|^200^|^login
+hank.blue@example.com^|^012345^|^web^|^404^|^not_found
