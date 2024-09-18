@@ -1,0 +1,6 @@
+include,cluster_id,topic_name,status,expected_status,code,detail,title
+"false","cluster-1","unknown","404","404","40403","This server does not host this topic-partition.","Unauthorized"
+"true","wrong-id","topic-1","404","404","40404","Cluster my-cluster cannot be found.","Forbidden"
+"true","cluster-1","topic-1","400","400","40035","The version of this API is not supported in the underlying Kafka cluster.","Unauthorized"
+"true","cluster-1","topic-1","401","401","40101","Authentication failed","Forbidden"
+"true","cluster-1","topic-1","403","403","40301","Request is not authorized","Unauthorized"
