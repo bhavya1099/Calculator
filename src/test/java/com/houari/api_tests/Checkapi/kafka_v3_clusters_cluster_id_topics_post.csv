@@ -1,0 +1,3 @@
+cluster_id,request_body,expected_status,expected_response
+"cluster-1","{"topic_name":"topic-A","partitions_count":3,"replication_factor":1,"configs":[{"name":"retention.ms","value":"172800000"}]}","201","{"kind":"KafkaTopic","metadata":{"self":"https://pkc-00000.region.provider.confluent.cloud/kafka/v3/clusters/cluster-1/topics/topic-A"}}"
+"cluster-1","{"topic_name":"topic-B","partitions_count":1,"replication_factor":1,"validate_only":true}","200","{"topic_name":"topic-B","validate_only":true}"
