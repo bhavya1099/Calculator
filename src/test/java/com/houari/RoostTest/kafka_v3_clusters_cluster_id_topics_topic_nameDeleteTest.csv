@@ -1,0 +1,11 @@
+cluster_id^|^topic_name
+lkc-abc123^|^orders-topic
+lkc-def456^|^user-events
+lkc-ghi789^|^payment-transactions
+lkc-jkl012^|^product-inventory
+lkc-mno345^|^customer-feedback
+lkc-pqr678^|^shipping-status
+lkc-stu901^|^marketing-campaigns
+lkc-vwx234^|^system-logs
+lkc-yz5678^|^analytics-data
+lkc-123abc^|^notifications
