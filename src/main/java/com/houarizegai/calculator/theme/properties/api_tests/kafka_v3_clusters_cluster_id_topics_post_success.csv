@@ -1,0 +1,13 @@
+cluster_id^|^topic_name^|^partitions_count^|^replication_factor^|^statusCode^|^scenario
+clstr-001^|^user-activity^|^32^|^3^|^201^|^create_topic
+clstr-002^|^order-processing^|^64^|^3^|^200^|^update_config
+clstr-003^|^log-events^|^16^|^3^|^201^|^create_topic
+clstr-004^|^customer-data^|^48^|^3^|^400^|^invalid_request
+clstr-005^|^product-inventory^|^24^|^3^|^201^|^create_topic
+clstr-006^|^payment-transactions^|^56^|^3^|^200^|^update_partitions
+clstr-007^|^marketing-campaigns^|^40^|^3^|^201^|^create_topic
+clstr-008^|^system-metrics^|^8^|^3^|^403^|^unauthorized_access
+clstr-009^|^user-preferences^|^72^|^3^|^201^|^create_topic
+clstr-010^|^error-logs^|^12^|^3^|^200^|^update_config
+clstr-011^|^social-media-feed^|^80^|^3^|^201^|^create_topic
+clstr-012^|^weather-data^|^20^|^3^|^200^|^update_partitions
