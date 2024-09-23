@@ -1,0 +1,11 @@
+cluster_id^|^statusCode^|^scenario
+cluster-1^|^200^|^successful_topic_list
+cluster-2^|^200^|^empty_topic_list
+cluster-3^|^500^|^internal_server_error
+cluster-4^|^200^|^multiple_topics
+cluster-5^|^200^|^single_topic
+cluster-6^|^500^|^network_timeout
+cluster-7^|^200^|^internal_topics_only
+cluster-8^|^200^|^mixed_internal_external_topics
+cluster-9^|^500^|^authentication_failure
+cluster-10^|^200^|^large_topic_list
