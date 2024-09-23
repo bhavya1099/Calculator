@@ -1,0 +1,13 @@
+cluster_id^|^statusCode^|^scenario
+c-123456^|^500^|^server_overload
+c-789012^|^503^|^database_connection_failure
+c-345678^|^^|^network_partition
+c-901234^|^502^|^proxy_error
+c-567890^|^504^|^gateway_timeout
+c-234567^|^500^|^out_of_memory
+c-890123^|^501^|^not_implemented
+c-456789^|^507^|^insufficient_storage
+c-012345^|^505^|^http_version_not_supported
+c-678901^|^508^|^loop_detected
+c-135790^|^599^|^network_connect_timeout
+c-246802^|^520^|^unknown_error
