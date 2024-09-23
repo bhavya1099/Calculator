@@ -1,0 +1,11 @@
+cluster_id^|^topic_name^|^partition_id^|^headers^|^key^|^value^|^timestamp^|^statusCode
+c-8f3x2p^|^api_logs^|^2^|^[{name: Header-1, value: SGVhZGVyLTE=}, {name: Header-2, value: SGVhZGVyLTI=}]^|^{type: BINARY, data: Zm9vYmFy}^|^{type: JSON, data: {message: User login successful}}^|^2023-05-15T09:23:47Z^|^200
+c-9k7m4r^|^user_events^|^5^|^[{name: Content-Type, value: YXBwbGljYXRpb24vanNvbg==}]^|^{type: STRING, data: user_123}^|^{type: JSON, data: {action: update_profile, status: completed}}^|^2023-05-15T10:45:32Z^|^200
+c-2t6y8u^|^error_logs^|^1^|^[{name: Severity, value: V0FSTklORw==}]^|^{type: BINARY, data: ZXJyb3JfaWQ=}^|^{type: STRING, data: Database connection timeout}^|^2023-05-15T11:12:18Z^|^500
+c-5h1n9v^|^payment_transactions^|^3^|^[{name: Transaction-ID, value: VFgxMjM0NTY=}]^|^{type: STRING, data: order_789}^|^{type: JSON, data: {amount: 99.99, currency: USD, status: processed}}^|^2023-05-15T12:30:55Z^|^200
+c-3b7x4z^|^system_metrics^|^0^|^[{name: Metric-Type, value: Q1BVX1VTQUZF}]^|^{type: BINARY, data: c2VydmVyXzAx}^|^{type: JSON, data: {cpu_usage: 78.5, memory_usage: 6.2GB}}^|^2023-05-15T13:47:09Z^|^200
+c-1f9q6w^|^user_notifications^|^4^|^[{name: Priority, value: SEVHSA==}]^|^{type: STRING, data: user_456}^|^{type: STRING, data: Your account password will expire in 3 days}^|^2023-05-15T14:55:23Z^|^200
+c-7d2s8e^|^api_logs^|^1^|^[{name: API-Version, value: djEuMg==}]^|^{type: BINARY, data: YXBpX2tleQ==}^|^{type: JSON, data: {endpoint: /users, method: GET, response_time: 45ms}}^|^2023-05-15T15:20:41Z^|^200
+c-4j6l2p^|^audit_trail^|^2^|^[{name: User-Role, value: QURNSU4=}]^|^{type: STRING, data: admin_789}^|^{type: JSON, data: {action: delete_user, target_user: user_101}}^|^2023-05-15T16:38:57Z^|^403
+c-6m8k3r^|^data_pipeline^|^6^|^[{name: Source, value: UE9TVEdSRVM=}]^|^{type: BINARY, data: am9iX2lk}^|^{type: JSON, data: {records_processed: 10000, duration: 120s}}^|^2023-05-15T17:52:14Z^|^200
+c-0v4b7n^|^customer_feedback^|^3^|^[{name: Feedback-Type, value: U1VSVkVZ}]^|^{type: STRING, data: survey_123}^|^{type: STRING, data: Product quality exceeds expectations}^|^2023-05-15T18:10:39Z^|^200

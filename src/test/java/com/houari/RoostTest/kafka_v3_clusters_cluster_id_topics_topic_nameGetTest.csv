@@ -1,0 +1,11 @@
+cluster_id^|^topic_name^|^include_authorized_operations^|^statusCode
+lkc-abc123^|^user-activity-logs^|^true^|^200
+lkc-def456^|^order-processing^|^false^|^400
+lkc-ghi789^|^payment-transactions^|^true^|^401
+lkc-jkl012^|^inventory-updates^|^false^|^403
+lkc-mno345^|^customer-feedback^|^true^|^404
+lkc-pqr678^|^system-metrics^|^false^|^429
+lkc-stu901^|^marketing-campaigns^|^true^|^500
+lkc-vwx234^|^product-catalog^|^false^|^200
+lkc-yz0567^|^user-preferences^|^true^|^400
+lkc-123abc^|^error-logs^|^false^|^401

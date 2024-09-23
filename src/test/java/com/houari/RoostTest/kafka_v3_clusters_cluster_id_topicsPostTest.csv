@@ -1,0 +1,11 @@
+cluster_id^|^topic_name^|^partitions_count^|^replication_factor^|^configs^|^validate_only^|^statusCode
+lkc-abc123^|^topic-sales^|^64^|^3^|^[{name: cleanup.policy, value: compact}, {name: compression.type, value: gzip}]^|^false^|^201
+lkc-def456^|^topic-users^|^32^|^3^|^[{name: cleanup.policy, value: delete}, {name: compression.type, value: lz4}]^|^true^|^200
+lkc-ghi789^|^topic-orders^|^128^|^3^|^[{name: cleanup.policy, value: compact}, {name: compression.type, value: snappy}]^|^false^|^201
+lkc-jkl012^|^topic-logs^|^16^|^2^|^[{name: cleanup.policy, value: delete}, {name: compression.type, value: zstd}]^|^true^|^400
+lkc-mno345^|^topic-events^|^64^|^3^|^[{name: cleanup.policy, value: compact}, {name: compression.type, value: gzip}]^|^false^|^201
+lkc-pqr678^|^topic-metrics^|^32^|^2^|^[{name: cleanup.policy, value: compact}, {name: compression.type, value: lz4}]^|^true^|^403
+lkc-stu901^|^topic-notifications^|^48^|^3^|^[{name: cleanup.policy, value: delete}, {name: compression.type, value: snappy}]^|^false^|^200
+lkc-vwx234^|^topic-analytics^|^96^|^3^|^[{name: cleanup.policy, value: compact}, {name: compression.type, value: zstd}]^|^true^|^429
+lkc-yz0567^|^topic-transactions^|^128^|^3^|^[{name: cleanup.policy, value: compact}, {name: compression.type, value: gzip}]^|^false^|^201
+lkc-123abc^|^topic-feedback^|^24^|^2^|^[{name: cleanup.policy, value: delete}, {name: compression.type, value: lz4}]^|^true^|^500
