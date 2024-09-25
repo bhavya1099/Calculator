@@ -1,0 +1,11 @@
+symbol^|^apikey^|^function^|^statusCode^|^scenario
+AAPL^|^ABC123XYZ^|^TIME_SERIES_DAILY^|^200^|^success
+GOOGL^|^DEF456UVW^|^GLOBAL_QUOTE^|^400^|^invalid_api_key
+MSFT^|^GHI789RST^|^OVERVIEW^|^200^|^success
+AMZN^|^JKL012MNO^|^INCOME_STATEMENT^|^429^|^rate_limit_exceeded
+TSLA^|^PQR345STU^|^BALANCE_SHEET^|^200^|^success
+FB^|^VWX678YZA^|^CASH_FLOW^|^404^|^symbol_not_found
+NVDA^|^BCD901EFG^|^EARNINGS^|^200^|^success
+JPM^|^HIJ234KLM^|^SECTOR^|^500^|^internal_server_error
+DIS^|^NOP567QRS^|^LISTING_STATUS^|^200^|^success
+NFLX^|^TUV890WXY^|^FX_DAILY^|^403^|^unauthorized_access
