@@ -1,0 +1,4 @@
+cluster_id,topic_name,partitions_count
+"""cluster-1""","""topic-1""","1"
+"""cluster-1""","""topic-1""","2"
+"""cluster-1""","""topic-2""","3"
