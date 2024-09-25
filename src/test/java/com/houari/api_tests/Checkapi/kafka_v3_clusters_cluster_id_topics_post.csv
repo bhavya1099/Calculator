@@ -1,0 +1,2 @@
+cluster_id,topic_name,partitions_count,replication_factor,configs
+"cluster-1","topic-X","64","3","[{""name"":""cleanup.policy"",""value"":""compact""},{""name"":""compression.type"",""value"":""gzip""}]"
