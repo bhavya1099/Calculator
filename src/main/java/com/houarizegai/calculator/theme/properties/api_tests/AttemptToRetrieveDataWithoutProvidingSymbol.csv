@@ -1,0 +1,11 @@
+apiKey^|^statusCode^|^scenario
+a1b2c3d4e5f6g7h8^|^200^|^login_success
+i9j0k1l2m3n4o5p6^|^404^|^page_not_found
+q7r8s9t0u1v2w3x4^|^500^|^server_error
+y5z6a7b8c9d0e1f2^|^201^|^user_created
+g3h4i5j6k7l8m9n0^|^403^|^unauthorized_access
+o1p2q3r4s5t6u7v8^|^204^|^no_content
+w9x0y1z2a3b4c5d6^|^400^|^bad_request
+e7f8g9h0i1j2k3l4^|^301^|^redirect
+m5n6o7p8q9r0s1t2^|^429^|^too_many_requests
+u3v4w5x6y7z8a9b0^|^502^|^bad_gateway

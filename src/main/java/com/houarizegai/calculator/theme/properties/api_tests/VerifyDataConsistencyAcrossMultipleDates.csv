@@ -1,0 +1,11 @@
+date^|^statusCode^|^scenario
+2023-05-12^|^200^|^login_success
+2023-05-13^|^404^|^page_not_found
+2023-05-14^|^500^|^server_error
+2023-05-15^|^201^|^user_created
+2023-05-16^|^403^|^unauthorized_access
+2023-05-17^|^302^|^redirect
+2023-05-18^|^400^|^bad_request
+2023-05-19^|^204^|^no_content
+2023-05-20^|^429^|^too_many_requests
+2023-05-21^|^503^|^service_unavailable
