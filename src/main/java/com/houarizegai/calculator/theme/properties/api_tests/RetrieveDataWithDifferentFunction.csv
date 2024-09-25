@@ -1,0 +1,11 @@
+function^|^statusCode^|^scenario
+getUser^|^200^|^success
+createOrder^|^201^|^newCustomer
+updateProfile^|^204^|^existingUser
+deleteAccount^|^200^|^userRequest
+searchProducts^|^200^|^filterApplied
+loginUser^|^401^|^invalidCredentials
+resetPassword^|^200^|^forgotPassword
+addToCart^|^200^|^itemAvailable
+checkoutOrder^|^400^|^paymentDeclined
+getOrderHistory^|^200^|^regularCustomer
