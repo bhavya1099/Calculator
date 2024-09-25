@@ -1,0 +1,4 @@
+cluster_id,topic_name,payload
+"cluster-1","topic-1","""{ "partition_id": 1, "headers": [{ "name": "Header-1", "value": "SGVhZGVyLTE=" }], "key": { "type": "BINARY", "data": "Zm9vYmFy" }, "value": { "type": "JSON", "data": { "foo": "bar" } }, "timestamp": "2021-02-05T19:14:42Z" }"""
+"cluster-1","topic-1","""{ "value": { "type": "STRING", "data": "My message" } }"""
+"cluster-1","topic-3","""{ "key": { "data": 1000 } }"""
