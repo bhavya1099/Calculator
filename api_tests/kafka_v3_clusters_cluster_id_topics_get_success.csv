@@ -1,0 +1,11 @@
+cluster_id^|^statusCode^|^scenario
+cluster-01^|^200^|^baseline
+cluster-02^|^200^|^stress_test
+cluster-03^|^500^|^performance
+cluster-04^|^200^|^error_handling
+cluster-05^|^500^|^security_test
+cluster-06^|^200^|^load_test
+cluster-07^|^404^|^data_integrity
+cluster-08^|^404^|^user_simulation
+cluster-09^|^500^|^network_delay
+cluster-10^|^200^|^compatibility_test
