@@ -1,0 +1,11 @@
+cluster_id^|^topic_name^|^partition_id^|^statusCode^|^scenario
+cluster-01^|^topic-a^|^1^|^200^|^scenario-x
+cluster-02^|^topic-b^|^2^|^404^|^scenario-y
+cluster-03^|^topic-c^|^3^|^500^|^scenario-z
+cluster-04^|^topic-d^|^4^|^200^|^scenario-x
+cluster-05^|^topic-e^|^5^|^404^|^scenario-y
+cluster-06^|^topic-f^|^6^|^500^|^scenario-z
+cluster-07^|^topic-g^|^7^|^200^|^scenario-x
+cluster-08^|^topic-h^|^8^|^404^|^scenario-y
+cluster-09^|^topic-i^|^9^|^500^|^scenario-z
+cluster-10^|^topic-j^|^10^|^200^|^scenario-x
