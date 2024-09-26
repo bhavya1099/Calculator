@@ -1,0 +1,11 @@
+function^|^symbol^|^apikey^|^statusCode^|^scenario
+getQuote^|^AAPL^|^a1b2c3d4e5f6g7h8^|^200^|^success
+getMarketData^|^GOOGL^|^i9j0k1l2m3n4o5p6^|^400^|^invalid_request
+getHistoricalPrices^|^MSFT^|^q7r8s9t0u1v2w3x4^|^500^|^server_error
+getCompanyProfile^|^AMZN^|^y5z6a7b8c9d0e1f2^|^200^|^success
+getTradingVolume^|^TSLA^|^g3h4i5j6k7l8m9n0^|^429^|^rate_limit_exceeded
+getEarningsReport^|^FB^|^o1p2q3r4s5t6u7v8^|^403^|^unauthorized
+getDividendHistory^|^JNJ^|^w9x0y1z2a3b4c5d6^|^200^|^success
+getSectorPerformance^|^XOM^|^e7f8g9h0i1j2k3l4^|^404^|^not_found
+getOptionChain^|^NFLX^|^m5n6o7p8q9r0s1t2^|^200^|^success
+getAnalystRatings^|^DIS^|^u3v4w5x6y7z8a9b0^|^502^|^gateway_error
