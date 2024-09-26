@@ -1,0 +1,9 @@
+Based on the provided scenario, I'll generate a CSV file with the required headers and data for the API calls. Since there are two examples in the scenario, we'll have two rows of data in addition to the header row.
+
+Here's the CSV content:
+
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=IBM&apikey=demo^|^{}^|^^|^200^|^{'Meta Data': {'1. Information': 'Weekly Prices (open, high, low, close) and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2023-05-26', '4. Time Zone': 'US/Eastern'}, 'Weekly Time Series': {'2023-05-26': {'1. open': '125.5000', '2. high': '128.3500', '3. low': '124.9100', '4. close': '127.2600', '5. volume': '18234567'}, '2023-05-19': {'1. open': '123.4500', '2. high': '126.7800', '3. low': '122.8900', '4. close': '125.1900', '5. volume': '20123456'}}}
+GET^|^https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY&symbol=IBM&apikey=demo^|^{}^|^^|^200^|^{'Meta Data': {'1. Information': 'Monthly Prices (open, high, low, close) and Volumes', '2. Symbol': 'IBM', '3. Last Refreshed': '2023-05-31', '4. Time Zone': 'US/Eastern'}, 'Monthly Time Series': {'2023-05-31': {'1. open': '123.4500', '2. high': '132.4500', '3. low': '122.5600', '4. close': '129.8200', '5. volume': '78234567'}, '2023-04-28': {'1. open': '130.2300', '2. high': '133.7800', '3. low': '124.9100', '4. close': '125.8900', '5. volume': '82123456'}}}
+
+Note: The response bodies are simulated based on the expected structure for the TIME_SERIES_WEEKLY and TIME_SERIES_MONTHLY functions. The actual data would vary based on the current market information and the specific time of the API call.

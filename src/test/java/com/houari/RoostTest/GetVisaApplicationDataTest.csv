@@ -1,0 +1,11 @@
+Based on the provided scenario, I'll generate a CSV file with the appropriate headers and data for the API call. Here's the populated data file:
+
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^https://finnhub.io/api/v1/visa/application?symbol=AAPL^|^{'Content-Type': 'application/json'}^|^^|^200^|^{'symbol': 'AAPL', 'applications': [{'year': 2023, 'h1b': 500, 'h1b1': 50, 'e3': 25}, {'year': 2022, 'h1b': 480, 'h1b1': 45, 'e3': 20}]}
+
+Note: 
+1. The REQ_HEADERS contains a basic Content-Type header, which is common for API requests.
+2. The REQ_BODY is empty (^^) as this is a GET request.
+3. The RESPONSE_BODY is a mock representation of what visa application data might look like. In a real scenario, this would be replaced with actual data from the API response.
+4. The URL includes the query parameter 'symbol=AAPL' as specified in the scenario.
+5. The RESPONSE_CODE is 200 as specified in the scenario.

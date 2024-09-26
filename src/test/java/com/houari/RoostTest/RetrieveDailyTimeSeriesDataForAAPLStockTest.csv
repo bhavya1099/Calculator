@@ -1,0 +1,12 @@
+Based on the provided scenario, I'll generate the CSV data file for API testing. Here's the populated data file:
+
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=demo^|^{}^|^^|^200^|^{'Meta Data': {'1. Information': 'Daily Prices (open, high, low, close) and Volumes', '2. Symbol': 'AAPL', '4. Output Size': 'Compact', '5. Time Zone': 'US/Eastern'}, 'Time Series (Daily)': {'2023-05-26': {'1. open': '173.32', '2. high': '175.77', '3. low': '173.11', '4. close': '175.43', '5. volume': '53571816'}, '2023-05-25': {'1. open': '172.41', '2. high': '173.90', '3. low': '171.69', '4. close': '172.99', '5. volume': '56058312'}}}
+
+Note: 
+1. The URL includes the query parameters as specified in the scenario.
+2. The request headers and body are empty as this is a GET request without any specified headers or body.
+3. The response code is set to 200 as specified in the scenario.
+4. The response body includes the 'Meta Data' with the specified fields and values, and a sample 'Time Series (Daily)' data for two days. In a real response, there would be more days of data, but I've included just two for brevity.
+5. The time series data includes all the fields specified in the scenario for each day.
+6. The actual values in the time series are fictional and would vary in a real response.

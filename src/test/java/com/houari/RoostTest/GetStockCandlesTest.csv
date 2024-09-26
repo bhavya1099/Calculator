@@ -1,0 +1,4 @@
+Based on the provided scenario, I'll generate a CSV file with the appropriate headers and data for the API call. Here's the populated data file:
+
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^https://finnhub.io/api/v1/stock/candle?symbol=AAPL&resolution=D&from=1625097600&to=1627689600^|^{'X-Finnhub-Token': 'your_api_key_here'}^|^^|^200^|^{'c': [146.39, 145.64, 148.56, 145.86, 146.14], 'h': [147.46, 146.13, 148.72, 146.97, 146.55], 'l': [145.76, 143.63, 145.18, 145.17, 145.25], 'o': [146.83, 145.74, 145.27, 146.49, 145.81], 's': 'ok', 't': [1625097600, 1625184000, 1625270400, 1625529600, 1625616000], 'v': [74794841, 78756786, 94905415, 55864994, 74793766]}
