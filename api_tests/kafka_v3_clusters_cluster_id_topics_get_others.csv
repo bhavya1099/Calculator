@@ -1,0 +1,11 @@
+cluster_id^|^invalid_token^|^statusCode^|^scenario
+1^|^true^|^200^|^Login Success
+2^|^false^|^404^|^Page Not Found
+3^|^true^|^500^|^Server Error
+4^|^^|^200^|^Data Fetch
+5^|^false^|^307^|^Redirect
+6^|^true^|^202^|^Processing
+7^|^wrongtype^|^401^|^Unauthorized Access
+8^|^true^|^abc^|^Invalid Code
+9^|^^|^500^|^Server Crash
+10^|^false^|^503^|^Service Unavailable
