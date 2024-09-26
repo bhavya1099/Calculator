@@ -1,0 +1,16 @@
+Based on the provided scenario, I'll create a CSV file that represents the API calls made in the Gherkin scenario. Since there are no specific API specs provided, I'll make some assumptions about the API structure based on the scenario details.
+
+Here's the CSV file content:
+
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=demo^|^{'Accept': 'application/json'}^|^^|^200^|^{'Meta Data': {'1. Information': 'Daily Prices (open, high, low, close) and Volumes', '2. Symbol': 'AAPL', '3. Last Refreshed': '2024-07-09', '4. Output Size': 'Compact', '5. Time Zone': 'US/Eastern'}, 'Time Series (Daily)': {'2024-07-09': {'1. open': '191.5600', '2. high': '193.8900', '3. low': '191.4200', '4. close': '193.2300', '5. volume': '48026096'}, '2024-07-08': {'1. open': '190.5000', '2. high': '192.6700', '3. low': '190.2400', '4. close': '191.8100', '5. volume': '51116077'}, '2024-07-05': {'1. open': '191.2600', '2. high': '192.6700', '3. low': '190.6200', '4. close': '191.8100', '5. volume': '46938845'}, '2024-07-03': {'1. open': '193.7800', '2. high': '194.3300', '3. low': '192.3500', '4. close': '192.4600', '5. volume': '31458198'}, '2024-07-02': {'1. open': '193.7800', '2. high': '194.1700', '3. low': '192.3500', '4. close': '193.9900', '5. volume': '48333324'}}}
+
+Note:
+1. I've assumed a single API call to retrieve the daily time series data for AAPL stock.
+2. The URL includes query parameters for the function (TIME_SERIES_DAILY), symbol (AAPL), and a demo API key.
+3. The response body includes sample data for the dates mentioned in the scenario's examples.
+4. All values in the response are strings, as is common in JSON responses from financial APIs.
+5. The request body is empty as this is a GET request.
+6. I've used a 200 response code to indicate a successful request.
+
+This CSV represents a single API call that retrieves all the necessary data for the scenario to run its checks across multiple dates.

@@ -1,0 +1,10 @@
+Based on the provided scenario, I'll generate a CSV file with the appropriate headers and data for the API call. Here's the populated data file:
+
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^https://finnhub.io/api/v1/stock/earnings?symbol=AAPL^|^{'X-Finnhub-Token': 'your_api_key_here'}^|^^|^200^|^{'symbol': 'AAPL', 'data': [{'actual': 1.52, 'estimate': 1.43, 'period': '2023-06-30', 'surprise': 0.09}, {'actual': 1.24, 'estimate': 1.19, 'period': '2023-03-31', 'surprise': 0.05}, {'actual': 1.88, 'estimate': 1.94, 'period': '2022-12-31', 'surprise': -0.06}, {'actual': 1.29, 'estimate': 1.27, 'period': '2022-09-30', 'surprise': 0.02}]}
+
+Note: 
+1. I've included a sample API key header ('X-Finnhub-Token') as it's typically required for Finnhub API calls, but you should replace 'your_api_key_here' with an actual API key.
+2. The response body is a sample representation of what the earnings data might look like. In a real scenario, this would be the actual response from the API.
+3. The request body is empty (^^) as GET requests typically don't have a body.
+4. The URL includes the query parameter 'symbol=AAPL' as specified in the scenario.

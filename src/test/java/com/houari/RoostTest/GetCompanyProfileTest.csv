@@ -1,0 +1,10 @@
+Based on the provided scenario, I'll generate a CSV file with the appropriate headers and data for the API call. Here's the populated data file:
+
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^https://finnhub.io/api/v1/stock/profile2?symbol=AAPL^|^{'X-Finnhub-Token': 'your_api_key_here'}^|^^|^200^|^{'country': 'US', 'currency': 'USD', 'exchange': 'NASDAQ NMS - GLOBAL MARKET', 'ipo': '1980-12-12', 'marketCapitalization': 2811.34, 'name': 'Apple Inc', 'phone': '14089961010', 'shareOutstanding': 15908.118, 'ticker': 'AAPL', 'weburl': 'https://www.apple.com/', 'logo': 'https://static.finnhub.io/logo/87cb30d8-80df-11ea-8951-00000000092a.png', 'finnhubIndustry': 'Technology'}
+
+Note: 
+1. I've included a sample API key header ('X-Finnhub-Token') as it's typically required for Finnhub API calls, though it wasn't explicitly mentioned in the scenario.
+2. The response body is a sample representation of what the company profile might look like for Apple Inc. The actual response may vary depending on the current data from Finnhub.
+3. The request body is empty as this is a GET request.
+4. The URL includes the query parameter 'symbol=AAPL' as specified in the scenario.
