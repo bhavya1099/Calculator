@@ -1,0 +1,11 @@
+cluster_id^|^invalid_payload^|^invalid_token^|^statusCode^|^scenario
+1000^|^false^|^987654321^|^200^|^payment processing
+1001^|^true^|^abc12345^|^403^|^login attempt
+1002^|^true^|^111222333^|^299^|^data update
+1003^|^AAA^|^0000-0000^|^404^|^search operation
+1004^|^false^|^123456789^|^500^|^user registration
+1005^|^true^|^0987654321^|^202^|^content retrieval
+1006^|^false^|^token123^|^500^|^password reset
+1007^|^true^|^89101112^|^200^|^account creation
+1008^|^false^|^78273645^|^301^|^order confirmation
+1009^|^^|^99999999^|^201^|^file upload

@@ -1,0 +1,11 @@
+topic_name^|^partitions_count^|^replication_factor^|^statusCode^|^scenario
+topic1^|^64^|^3^|^200^|^testA
+topic2^|^32^|^3^|^404^|^testB
+topic3^|^16^|^3^|^500^|^testC
+topic4^|^8^|^3^|^200^|^testD
+topic5^|^64^|^3^|^403^|^testE
+topic6^|^32^|^3^|^200^|^testF
+topic7^|^16^|^3^|^500^|^testG
+topic8^|^8^|^3^|^404^|^testH
+topic9^|^64^|^3^|^200^|^testI
+topic10^|^32^|^3^|^403^|^testJ
