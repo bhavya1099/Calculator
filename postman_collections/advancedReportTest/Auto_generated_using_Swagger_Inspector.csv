@@ -1,0 +1,6 @@
+symbol,apikey,function,statusCode,scenario
+'AAPL','demo','GLOBAL_QUOTE',200,'Auto generated using Swagger Inspector'
+'GOOGL','demo','TIME_SERIES_DAILY',200,'Auto generated using Swagger Inspector'
+'MSFT','demo','OVERVIEW',200,'Auto generated using Swagger Inspector'
+'AMZN','demo','INCOME_STATEMENT',200,'Auto generated using Swagger Inspector'
+'FB','demo','BALANCE_SHEET',200,'Auto generated using Swagger Inspector'
