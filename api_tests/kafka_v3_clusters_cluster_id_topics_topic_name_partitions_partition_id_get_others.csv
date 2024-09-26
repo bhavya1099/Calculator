@@ -1,0 +1,11 @@
+cluster_id^|^topic_name^|^partition_id^|^statusCode^|^scenario
+001^|^FinanceUpdates^|^3^|^200^|^Success
+002^|^WeatherReport^|^5^|^404^|^NotFound
+003^|^SportsNews^|^2^|^500^|^ServerError
+004^|^Entertainment^|^4^|^abc^|^DataError
+005^|^TechTalks^|^1^|^200^|^Success
+006^|^HealthNews^|^6^|^503^|^ServiceUnavailable
+007^|^MarketTrends^|^null^|^200^|^Success
+008^|^CryptoUpdates^|^0^|^200^|^Success
+009^|^Education^|^3^|^301^|^Redirect
+010^|^Science^|^9^|^200^|^Success
